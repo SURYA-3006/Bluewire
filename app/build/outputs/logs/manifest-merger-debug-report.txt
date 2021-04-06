@@ -1,0 +1,1104 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:161:9-169:20
+	android:grantUriPermissions
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:165:13-47
+	android:authorities
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:163:13-64
+	android:exported
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:164:13-37
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:162:13-62
+manifest
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\203afe1376f327626836a495c62b5d8b\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a6fd4e8b24c90a9de4700afb44d2e6bf\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\21f148cfa3d659f847a7fdc172733ea2\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fcb6a1b0d1e3908e4ab1e2225b0b9342\preference-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.genonbeta.android:framework:1.0.2.8] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4c5de3f72b4ab29f95571cadcd35d530\jetified-framework-1.0.2.8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:2:1-45:12
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0807611a2c3e818c339f709001efa3c1\material-1.3.0-alpha01\AndroidManifest.xml:17:1-24:12
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b8b1528e4ffe722bf9cea3f533a90c8e\jetified-core-0.9.6.0\AndroidManifest.xml:2:1-15:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0eaae5f3b780ff9e3b63c08a2420c455\jetified-library-1.4.2\AndroidManifest.xml:6:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\6d18a987dc33cda7145cb77e69b87592\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:2:1-122:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ec47df90acfaa89f08721cefa0c90920\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8245ea4e38955d8dc19b706addd2866d\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\e6814cfa156525fc474fad88dae9e103\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0ace339cd448ac56e6e366915bab7b99\jetified-gdatabase-1.0.2.6.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:2:1-16:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c9eca163b291abb9bf83cadc0574d7b3\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-ads:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96b40f7051cc875431f5cb1d2919a8cc\jetified-play-services-ads-19.3.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\684eb4796be0563db6581302b55b0b8e\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0b49bc934b475fbb8758c3106a68dc8d\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5e02235b90c09b6adab47ed13a885e87\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\120db8c8829f983cc37bb205ea50d4e6\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\42efa3a714625c92b3430eba14844546\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a944ef0e75e84f3d134782295423a8c8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\6c2979cc4f67217f3821790394ed7db6\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-gass:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bcaa71b51b73d6ff84cd26d99328de9e\jetified-play-services-gass-19.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b824e301c11021faf075a18d62d07e20\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b0dff476b17d491a4b6e10ca9641df8f\jetified-play-services-location-15.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fbc09f562e0183d85e8d8d4e4cf559c1\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\12cf7aa13caff437253c00d3d0946ae3\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ee7383c02f76c9861a27b5be77e14703\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c25c0ccc19f907fbb5c52e450916c7bb\jetified-play-services-places-placereport-15.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\d5fa3c495e580c4690d69a57fcdaadce\jetified-play-services-measurement-base-17.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c3b6fc61a36423ea51b1ef5317d4ca40\jetified-play-services-stats-16.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96d9c28e62572d0bb9e1357c67887193\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\72400daa16d7be69cc5e09f5d35ead97\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b3d20a1e5d305c56c0cfa615f8699d04\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\90b425acd1a4f06420de915231b93085\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\94a155561ee4ef2c6c2dbcd8689615e1\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ffc1f949b2ebdb2bbaf87d384e49fe47\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\581a7bd8f75204ab7317c68d586f399a\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91dd17cd130409cfce21610b6b8acf87\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\955a374cbfd64ab3f180281e7f6b2f0a\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\1cd5d99b152227edb2b9f93ca446cf39\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5773790c7c01eca78de344795ae6dd11\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\451b41364ba0d3f745c8b1abd60ab12f\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\52f09c80c71aac1c58629e14e0f96bcb\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\abb81fc13f51c3a390e514a0f970d9a3\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\e1082e42a2b70fbb8bdcdd2bdd886553\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4fb8deacc9134080425bd2866dcccbfa\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\54d55621a91e593f3dc3cd2337cfa5fb\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bca24345e38081e3ef33d14eb5e9ada9\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8c800fea151e1e6ce649cb29f7773648\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\1cb619dc3d0184e333e58ce98ac8ffa0\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c59e03f7e84c36f1c2d939af47b7364f\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c9c3fd5a081aa457975a74ad6301ee5a\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\3aae39feaf185b56cb5346a9bee1a4c6\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\64052067b6994cf86aae0a995b72cabe\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b763416b5bd5c97fe2bc24533a255a7c\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fa410d5a2d012ee63c921ab8b579da0d\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c3274935920ae0b1bb1212f37ad2dd07\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91ce1843498c8732139d5a833376152f\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0316c84cde042bf917ab4c3580afd47f\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\499507b54fac58a1e53c038be1adc7fb\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-base:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\2e1842c27ab28535940c610e07283b4c\jetified-play-services-ads-base-19.3.0\AndroidManifest.xml:2:1-9:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+	package
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:4:5-41
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:24:5-79
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:8:5-76
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:11:22-74
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:13:5-83
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:13:22-80
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:14:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:16:5-17:47
+	tools:ignore
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:17:9-44
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:16:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:20:5-66
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:23:5-66
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:20:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:22:5-68
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:18:5-68
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:18:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:22:22-65
+application
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:24:5-222:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a6fd4e8b24c90a9de4700afb44d2e6bf\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a6fd4e8b24c90a9de4700afb44d2e6bf\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:35:5-43:19
+MERGED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:35:5-43:19
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0807611a2c3e818c339f709001efa3c1\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0807611a2c3e818c339f709001efa3c1\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b8b1528e4ffe722bf9cea3f533a90c8e\jetified-core-0.9.6.0\AndroidManifest.xml:13:5-20
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b8b1528e4ffe722bf9cea3f533a90c8e\jetified-core-0.9.6.0\AndroidManifest.xml:13:5-20
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:48:5-120:19
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:48:5-120:19
+MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0ace339cd448ac56e6e366915bab7b99\jetified-gdatabase-1.0.2.6.1\AndroidManifest.xml:11:5-20
+MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0ace339cd448ac56e6e366915bab7b99\jetified-gdatabase-1.0.2.6.1\AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c9eca163b291abb9bf83cadc0574d7b3\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c9eca163b291abb9bf83cadc0574d7b3\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bcaa71b51b73d6ff84cd26d99328de9e\jetified-play-services-gass-19.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bcaa71b51b73d6ff84cd26d99328de9e\jetified-play-services-gass-19.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b824e301c11021faf075a18d62d07e20\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b824e301c11021faf075a18d62d07e20\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b0dff476b17d491a4b6e10ca9641df8f\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b0dff476b17d491a4b6e10ca9641df8f\jetified-play-services-location-15.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fbc09f562e0183d85e8d8d4e4cf559c1\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fbc09f562e0183d85e8d8d4e4cf559c1\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\12cf7aa13caff437253c00d3d0946ae3\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\12cf7aa13caff437253c00d3d0946ae3\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ee7383c02f76c9861a27b5be77e14703\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ee7383c02f76c9861a27b5be77e14703\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c25c0ccc19f907fbb5c52e450916c7bb\jetified-play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c25c0ccc19f907fbb5c52e450916c7bb\jetified-play-services-places-placereport-15.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\d5fa3c495e580c4690d69a57fcdaadce\jetified-play-services-measurement-base-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\d5fa3c495e580c4690d69a57fcdaadce\jetified-play-services-measurement-base-17.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c3b6fc61a36423ea51b1ef5317d4ca40\jetified-play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c3b6fc61a36423ea51b1ef5317d4ca40\jetified-play-services-stats-16.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96d9c28e62572d0bb9e1357c67887193\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96d9c28e62572d0bb9e1357c67887193\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\abb81fc13f51c3a390e514a0f970d9a3\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\abb81fc13f51c3a390e514a0f970d9a3\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4fb8deacc9134080425bd2866dcccbfa\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4fb8deacc9134080425bd2866dcccbfa\jetified-gifdecoder-4.11.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bca24345e38081e3ef33d14eb5e9ada9\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bca24345e38081e3ef33d14eb5e9ada9\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-base:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\2e1842c27ab28535940c610e07283b4c\jetified-play-services-ads-base-19.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\2e1842c27ab28535940c610e07283b4c\jetified-play-services-ads-base-19.3.0\AndroidManifest.xml:7:5-20
+	android:supportsRtl
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:31:9-35
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:30:9-41
+	android:appComponentFactory
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:27:9-55
+		REJECTED from [androidx.core:core:1.3.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\abb81fc13f51c3a390e514a0f970d9a3\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:fullBackupContent
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:28:9-41
+	tools:ignore
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:33:9-48
+	android:icon
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:29:9-43
+	android:allowBackup
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:26:9-35
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:32:9-45
+	tools:replace
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:34:9-52
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:25:9-59
+meta-data#com.google.android.gms.version
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:36:9-38:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96d9c28e62572d0bb9e1357c67887193\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96d9c28e62572d0bb9e1357c67887193\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:38:13-66
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:37:13-58
+meta-data#com.google.android.gms.ads.APPLICATION_ID
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:39:9-41:52
+	android:value
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:40:13-69
+activity#com.onlinepatch.SmartShare.activity.MainActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:43:9-49:20
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:45:13-29
+	android:launchMode
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:46:13-44
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:47:13-61
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:44:13-76
+activity#com.onlinepatch.SmartShare.activity.ShareActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:50:9-66:20
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:52:13-45
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:53:13-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:51:13-77
+intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SEND_MULTIPLE+action:name:com.onlinepatch.SmartShare.intent.action.TBShare_SEND+action:name:com.onlinepatch.SmartShare.intent.action.TBShare_SEND_MULTIPLE+action:name:com.onlinepatch.SmartShare.intent.action.TBShare_SEND_TEXT+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:54:13-63:29
+action#com.onlinepatch.SmartShare.intent.action.TBShare_SEND_TEXT
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:55:17-101
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:55:25-98
+action#android.intent.action.SEND
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:56:25-66
+action#android.intent.action.SEND_MULTIPLE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:57:17-78
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:57:25-75
+action#com.onlinepatch.SmartShare.intent.action.TBShare_SEND
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:58:17-96
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:58:25-93
+action#com.onlinepatch.SmartShare.intent.action.TBShare_SEND_MULTIPLE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:59:17-105
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:59:25-102
+category#android.intent.category.DEFAULT
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:61:17-76
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:61:27-73
+data
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:62:17-48
+	android:host
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:107:23-39
+	android:scheme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:103:23-44
+	android:pathPattern
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:108:23-56
+	android:mimeType
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:62:23-45
+activity#com.onlinepatch.SmartShare.activity.AddDevicesToTransferActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:68:9-71:80
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:70:13-62
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:71:13-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:69:13-92
+activity#com.onlinepatch.SmartShare.activity.FileExplorerActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:73:9-76:80
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:75:13-54
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:76:13-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:74:13-84
+activity#com.onlinepatch.SmartShare.activity.ConnectionManagerActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:78:9-81:80
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:13-56
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:81:13-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:79:13-89
+activity#com.onlinepatch.SmartShare.activity.ContentSharingActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:83:9-87:80
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:85:13-46
+	android:launchMode
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:86:13-44
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:87:13-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:84:13-86
+activity#com.onlinepatch.SmartShare.activity.FilePickerActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:89:9-91:57
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:91:13-54
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:90:13-82
+activity#com.onlinepatch.SmartShare.activity.ViewTransferActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:93:9-111:20
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:95:13-59
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:96:13-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:94:13-84
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\..*\\.tshare+data:pathPattern:.*\\.tshare+data:scheme:content+data:scheme:file
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:97:13-110:29
+action#android.intent.action.VIEW
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:98:17-69
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:98:25-66
+category#android.intent.category.BROWSABLE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:101:17-78
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:101:27-75
+activity#com.onlinepatch.SmartShare.activity.ManageDevicesActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:113:9-116:63
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:115:13-55
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:116:13-61
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:114:13-85
+activity#com.onlinepatch.SmartShare.activity.SearchActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:118:9-120:51
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:120:13-48
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:119:13-78
+activity#com.onlinepatch.SmartShare.activity.TextEditorActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:122:9-124:55
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:124:13-52
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:123:13-82
+activity#com.onlinepatch.SmartShare.activity.ChangeStoragePathActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:126:9-133:20
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:128:13-63
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:127:13-89
+intent-filter#action:name:com.onlinepatch.SmartShare.intent.action.UPDATE_STORAGE_PATH+category:name:android.intent.category.DEFAULT
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:129:13-132:29
+action#com.onlinepatch.SmartShare.intent.action.UPDATE_STORAGE_PATH
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:130:17-103
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:130:25-100
+activity#com.onlinepatch.SmartShare.activity.BarcodeScannerActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:135:9-138:75
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:137:13-52
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:138:13-72
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:136:13-86
+activity#com.onlinepatch.SmartShare.activity.SplashActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:140:9-150:20
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:142:13-45
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:143:13-61
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:141:13-78
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:145:13-148:29
+action#android.intent.action.MAIN
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:146:17-69
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:146:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:147:17-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:147:27-74
+activity#com.onlinepatch.SmartShare.activity.WebShareActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:151:9-153:63
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:152:13-38
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:153:13-61
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:151:19-86
+activity#com.onlinepatch.SmartShare.activity.HistoryActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:154:9-156:63
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:155:13-29
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:156:13-61
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:154:19-85
+activity#com.onlinepatch.SmartShare.activity.InviteActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:157:9-159:63
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:158:13-29
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:159:13-61
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:157:19-84
+receiver#com.onlinepatch.SmartShare.receiver.NetworkStatusReceiver
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:171:9-180:20
+	android:process
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:173:13-40
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:172:13-85
+intent-filter#action:name:android.net.wifi.STATE_CHANGE+action:name:android.net.wifi.WIFI_AP_STATE_CHANGED+action:name:android.net.wifi.WIFI_STATE_CHANGED+action:name:android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:174:13-179:29
+action#android.net.wifi.WIFI_STATE_CHANGED
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:175:17-78
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:175:25-75
+action#android.net.wifi.WIFI_AP_STATE_CHANGED
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:176:17-81
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:176:25-78
+action#android.net.wifi.STATE_CHANGE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:177:17-72
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:177:25-69
+action#android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:178:17-87
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:178:25-84
+receiver#com.onlinepatch.SmartShare.receiver.DialogEventReceiver
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:181:9-183:43
+	android:process
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:183:13-40
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:182:13-83
+service#com.onlinepatch.SmartShare.service.CommunicationService
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:185:9-189:43
+	android:process
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:189:13-40
+	android:enabled
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:187:13-35
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:188:13-62
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:186:13-83
+service#com.onlinepatch.SmartShare.service.DeviceChooserService
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:191:9-198:19
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:193:13-62
+	android:permission
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:194:13-80
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:192:13-83
+intent-filter#action:name:android.service.chooser.ChooserTargetService
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:195:13-197:29
+action#android.service.chooser.ChooserTargetService
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:196:17-87
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:196:25-84
+service#com.onlinepatch.SmartShare.service.DeviceScannerService
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:199:9-206:19
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:199:18-88
+intent-filter#action:name:com.onlinepatch.SmartShare.intent.action.ADD_IP+action:name:com.onlinepatch.SmartShare.intent.action.SCAN_DEVICES+category:name:android.intent.category.DEFAULT
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:200:13-205:29
+action#com.onlinepatch.SmartShare.intent.action.SCAN_DEVICES
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:201:17-96
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:201:25-93
+action#com.onlinepatch.SmartShare.intent.action.ADD_IP
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:202:17-90
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:202:25-87
+service#com.onlinepatch.SmartShare.service.WorkerService
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:208:9-210:58
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:210:13-55
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:209:13-76
+service#com.onlinepatch.SmartShare.service.CommunicationToggleTile
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:212:9-221:19
+	android:process
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:217:13-40
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:215:13-52
+	android:permission
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:216:13-77
+	android:icon
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:214:13-47
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:213:13-86
+intent-filter#action:name:android.service.quicksettings.action.QS_TILE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:218:13-220:29
+action#android.service.quicksettings.action.QS_TILE
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:219:17-87
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:219:25-84
+uses-sdk
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\203afe1376f327626836a495c62b5d8b\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\203afe1376f327626836a495c62b5d8b\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a6fd4e8b24c90a9de4700afb44d2e6bf\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a6fd4e8b24c90a9de4700afb44d2e6bf\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\21f148cfa3d659f847a7fdc172733ea2\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\21f148cfa3d659f847a7fdc172733ea2\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fcb6a1b0d1e3908e4ab1e2225b0b9342\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fcb6a1b0d1e3908e4ab1e2225b0b9342\preference-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.genonbeta.android:framework:1.0.2.8] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4c5de3f72b4ab29f95571cadcd35d530\jetified-framework-1.0.2.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.genonbeta.android:framework:1.0.2.8] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4c5de3f72b4ab29f95571cadcd35d530\jetified-framework-1.0.2.8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0807611a2c3e818c339f709001efa3c1\material-1.3.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0807611a2c3e818c339f709001efa3c1\material-1.3.0-alpha01\AndroidManifest.xml:20:5-44
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b8b1528e4ffe722bf9cea3f533a90c8e\jetified-core-0.9.6.0\AndroidManifest.xml:8:5-11:75
+MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b8b1528e4ffe722bf9cea3f533a90c8e\jetified-core-0.9.6.0\AndroidManifest.xml:8:5-11:75
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0eaae5f3b780ff9e3b63c08a2420c455\jetified-library-1.4.2\AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0eaae5f3b780ff9e3b63c08a2420c455\jetified-library-1.4.2\AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\6d18a987dc33cda7145cb77e69b87592\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\6d18a987dc33cda7145cb77e69b87592\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:4:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ec47df90acfaa89f08721cefa0c90920\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ec47df90acfaa89f08721cefa0c90920\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8245ea4e38955d8dc19b706addd2866d\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8245ea4e38955d8dc19b706addd2866d\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\e6814cfa156525fc474fad88dae9e103\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\e6814cfa156525fc474fad88dae9e103\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0ace339cd448ac56e6e366915bab7b99\jetified-gdatabase-1.0.2.6.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0ace339cd448ac56e6e366915bab7b99\jetified-gdatabase-1.0.2.6.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c9eca163b291abb9bf83cadc0574d7b3\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c9eca163b291abb9bf83cadc0574d7b3\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-ads:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96b40f7051cc875431f5cb1d2919a8cc\jetified-play-services-ads-19.3.0\AndroidManifest.xml:21:5-23:52
+MERGED from [com.google.android.gms:play-services-ads:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96b40f7051cc875431f5cb1d2919a8cc\jetified-play-services-ads-19.3.0\AndroidManifest.xml:21:5-23:52
+MERGED from [androidx.media:media:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\684eb4796be0563db6581302b55b0b8e\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\684eb4796be0563db6581302b55b0b8e\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0b49bc934b475fbb8758c3106a68dc8d\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0b49bc934b475fbb8758c3106a68dc8d\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5e02235b90c09b6adab47ed13a885e87\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5e02235b90c09b6adab47ed13a885e87\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\120db8c8829f983cc37bb205ea50d4e6\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\120db8c8829f983cc37bb205ea50d4e6\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\42efa3a714625c92b3430eba14844546\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\42efa3a714625c92b3430eba14844546\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a944ef0e75e84f3d134782295423a8c8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a944ef0e75e84f3d134782295423a8c8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\6c2979cc4f67217f3821790394ed7db6\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\6c2979cc4f67217f3821790394ed7db6\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bcaa71b51b73d6ff84cd26d99328de9e\jetified-play-services-gass-19.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bcaa71b51b73d6ff84cd26d99328de9e\jetified-play-services-gass-19.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b824e301c11021faf075a18d62d07e20\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b824e301c11021faf075a18d62d07e20\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b0dff476b17d491a4b6e10ca9641df8f\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b0dff476b17d491a4b6e10ca9641df8f\jetified-play-services-location-15.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fbc09f562e0183d85e8d8d4e4cf559c1\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fbc09f562e0183d85e8d8d4e4cf559c1\jetified-firebase-iid-interop-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\12cf7aa13caff437253c00d3d0946ae3\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\12cf7aa13caff437253c00d3d0946ae3\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ee7383c02f76c9861a27b5be77e14703\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ee7383c02f76c9861a27b5be77e14703\jetified-firebase-measurement-connector-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c25c0ccc19f907fbb5c52e450916c7bb\jetified-play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c25c0ccc19f907fbb5c52e450916c7bb\jetified-play-services-places-placereport-15.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\d5fa3c495e580c4690d69a57fcdaadce\jetified-play-services-measurement-base-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\d5fa3c495e580c4690d69a57fcdaadce\jetified-play-services-measurement-base-17.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c3b6fc61a36423ea51b1ef5317d4ca40\jetified-play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c3b6fc61a36423ea51b1ef5317d4ca40\jetified-play-services-stats-16.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96d9c28e62572d0bb9e1357c67887193\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96d9c28e62572d0bb9e1357c67887193\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\72400daa16d7be69cc5e09f5d35ead97\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\72400daa16d7be69cc5e09f5d35ead97\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b3d20a1e5d305c56c0cfa615f8699d04\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b3d20a1e5d305c56c0cfa615f8699d04\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\90b425acd1a4f06420de915231b93085\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\90b425acd1a4f06420de915231b93085\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\94a155561ee4ef2c6c2dbcd8689615e1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\94a155561ee4ef2c6c2dbcd8689615e1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ffc1f949b2ebdb2bbaf87d384e49fe47\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ffc1f949b2ebdb2bbaf87d384e49fe47\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\581a7bd8f75204ab7317c68d586f399a\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\581a7bd8f75204ab7317c68d586f399a\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91dd17cd130409cfce21610b6b8acf87\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91dd17cd130409cfce21610b6b8acf87\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\955a374cbfd64ab3f180281e7f6b2f0a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\955a374cbfd64ab3f180281e7f6b2f0a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\1cd5d99b152227edb2b9f93ca446cf39\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\1cd5d99b152227edb2b9f93ca446cf39\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5773790c7c01eca78de344795ae6dd11\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5773790c7c01eca78de344795ae6dd11\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\451b41364ba0d3f745c8b1abd60ab12f\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\451b41364ba0d3f745c8b1abd60ab12f\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\52f09c80c71aac1c58629e14e0f96bcb\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\52f09c80c71aac1c58629e14e0f96bcb\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\abb81fc13f51c3a390e514a0f970d9a3\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\abb81fc13f51c3a390e514a0f970d9a3\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\e1082e42a2b70fbb8bdcdd2bdd886553\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\e1082e42a2b70fbb8bdcdd2bdd886553\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4fb8deacc9134080425bd2866dcccbfa\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4fb8deacc9134080425bd2866dcccbfa\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\54d55621a91e593f3dc3cd2337cfa5fb\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\54d55621a91e593f3dc3cd2337cfa5fb\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bca24345e38081e3ef33d14eb5e9ada9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bca24345e38081e3ef33d14eb5e9ada9\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8c800fea151e1e6ce649cb29f7773648\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8c800fea151e1e6ce649cb29f7773648\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\1cb619dc3d0184e333e58ce98ac8ffa0\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\1cb619dc3d0184e333e58ce98ac8ffa0\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c59e03f7e84c36f1c2d939af47b7364f\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c59e03f7e84c36f1c2d939af47b7364f\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c9c3fd5a081aa457975a74ad6301ee5a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c9c3fd5a081aa457975a74ad6301ee5a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\3aae39feaf185b56cb5346a9bee1a4c6\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\3aae39feaf185b56cb5346a9bee1a4c6\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\64052067b6994cf86aae0a995b72cabe\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\64052067b6994cf86aae0a995b72cabe\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b763416b5bd5c97fe2bc24533a255a7c\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b763416b5bd5c97fe2bc24533a255a7c\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fa410d5a2d012ee63c921ab8b579da0d\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fa410d5a2d012ee63c921ab8b579da0d\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c3274935920ae0b1bb1212f37ad2dd07\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c3274935920ae0b1bb1212f37ad2dd07\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91ce1843498c8732139d5a833376152f\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91ce1843498c8732139d5a833376152f\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0316c84cde042bf917ab4c3580afd47f\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0316c84cde042bf917ab4c3580afd47f\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\499507b54fac58a1e53c038be1adc7fb\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\499507b54fac58a1e53c038be1adc7fb\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-ads-base:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\2e1842c27ab28535940c610e07283b4c\jetified-play-services-ads-base-19.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\2e1842c27ab28535940c610e07283b4c\jetified-play-services-ads-base-19.3.0\AndroidManifest.xml:5:5-44
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b8b1528e4ffe722bf9cea3f533a90c8e\jetified-core-0.9.6.0\AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:166:13-168:58
+	android:resource
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:168:17-55
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:167:17-67
+uses-permission#android.permission.CAMERA
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:11:22-62
+uses-feature#android.hardware.camera
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:15:9-47
+uses-feature#android.hardware.camera.front
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:23:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:27:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:26:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:30:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:29:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:31:5-33:36
+	android:required
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:33:9-33
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:32:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:36:9-42:63
+	android:screenOrientation
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:39:13-56
+	android:clearTaskOnLaunch
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:38:13-45
+	android:stateNotNeeded
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:40:13-42
+	android:windowSoftInputMode
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:42:13-60
+	android:theme
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:41:13-54
+	android:name
+		ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:37:13-74
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:8:9-63
+permission#com.onlinepatch.SmartShare.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:8:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:22-76
+uses-permission#com.onlinepatch.SmartShare.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:16:22-64
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:17:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:17:22-79
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:29:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:31:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:31:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:32:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:32:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:33:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:34:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:35:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:35:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:36:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:36:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:37:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:37:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:38:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:38:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:39:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:39:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:40:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:40:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:41:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:41:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:43:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:43:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:44:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:44:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:45:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:45:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:46:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:46:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:49:9-51:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:50:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:53:9-55:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:55:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:54:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:57:9-67:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:59:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:58:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:28-50
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.onlinepatch.SmartShare
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:27-58
+category#com.onlinepatch.SmartShare
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:68:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:68:19-74
+service#com.onesignal.HmsMessageServiceOneSignal
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:70:9-76:19
+	android:exported
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:71:13-68
+intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:73:13-75:29
+action#com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:74:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:74:25-78
+activity#com.onesignal.NotificationOpenedActivityHMS
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:78:9-84:20
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:80:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:79:13-71
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:81:13-83:29
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:86:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:86:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:87:9-89:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:89:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:88:13-61
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:90:9-92:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:92:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:91:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:93:9-95:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:95:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:94:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:96:9-98:43
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:98:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:97:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:99:9-101:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:101:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:100:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:103:9-105:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:105:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:104:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:107:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:107:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:109:9-114:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:109:19-62
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:110:13-113:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:111:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:111:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:112:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:112:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:115:9-119:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:115:19-63
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:116:13-118:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:117:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:117:25-81
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:12:13-84
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:30:13-65
+provider#com.google.android.gms.ads.MobileAdsInitProvider
+ADDED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:35:9-39:39
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:37:13-73
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:38:13-37
+	android:initOrder
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:36:13-76
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
