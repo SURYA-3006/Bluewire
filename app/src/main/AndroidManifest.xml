@@ -7,22 +7,21 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
         tools:ignore="ProtectedPermissions" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.VIBRATE" />
-
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name="com.onlinepatch.SmartShare.base.App"
+        android:name=".base.App"
         android:allowBackup="true"
         android:appComponentFactory="@string/app_name"
         android:fullBackupContent="true"
@@ -32,6 +31,28 @@
         android:theme="@style/Theme.TBShare"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
+        <activity android:name=".activity.ChatNavigationActivity"
+            android:label="Chat"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            </activity>
+        <activity
+            android:name=".activity.HomeNavigationActivity"
+            android:label="Home"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".activity.ClientActivity" />
+        <activity android:name=".activity.ServerActivity" />
+        <activity
+            android:name=".activity.BlueMainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -41,14 +62,12 @@
             android:value="@string/admob_app_id" />
 
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.MainActivity"
-            android:label=""
+            android:name=".activity.MainActivity"
+            android:label="Share Files"
             android:launchMode="singleTask"
-            android:theme="@style/Theme.TBShare.NoActionBar">
-
-        </activity>
+            android:theme="@style/Theme.TBShare.NoActionBar" />
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.ShareActivity"
+            android:name=".activity.ShareActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar">
             <intent-filter>
@@ -59,39 +78,32 @@
                 <action android:name="com.onlinepatch.SmartShare.intent.action.TBShare_SEND_MULTIPLE" />
 
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="*/*" />
             </intent-filter>
-
-
         </activity>
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.AddDevicesToTransferActivity"
+            android:name=".activity.AddDevicesToTransferActivity"
             android:label="@string/text_addDevicesToTransfer"
             android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.FileExplorerActivity"
+            android:name=".activity.FileExplorerActivity"
             android:label="@string/text_fileExplorer"
             android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.ConnectionManagerActivity"
+            android:name=".activity.ConnectionManagerActivity"
             android:label="@string/text_connectDevices"
             android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.ContentSharingActivity"
+            android:name=".activity.ContentSharingActivity"
             android:label="@string/text_send"
             android:launchMode="singleTask"
             android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.FilePickerActivity"
+            android:name=".activity.FilePickerActivity"
             android:label="@string/text_fileExplorer" />
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.ViewTransferActivity"
+            android:name=".activity.ViewTransferActivity"
             android:label="@string/text_transactionViewer"
             android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar">
             <intent-filter>
@@ -103,60 +115,50 @@
                 <data android:scheme="file" />
                 <data android:scheme="content" />
                 <data android:mimeType="*/*" />
-
                 <data android:host="*" />
                 <data android:pathPattern=".*\\.tshare" />
                 <data android:pathPattern=".*\\..*\\.tshare" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.ManageDevicesActivity"
+            android:name=".activity.ManageDevicesActivity"
             android:label="@string/text_manageDevices"
-            android:theme="@style/Theme.TBShare.NoActionBar"/>
-
+            android:theme="@style/Theme.TBShare.NoActionBar" />
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.SearchActivity"
+            android:name=".activity.SearchActivity"
             android:label="@string/butn_search" />
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.TextEditorActivity"
+            android:name=".activity.TextEditorActivity"
             android:label="@string/text_textEditor" />
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.ChangeStoragePathActivity"
+            android:name=".activity.ChangeStoragePathActivity"
             android:theme="@style/Base.Theme.AppCompat.Dialog">
             <intent-filter>
                 <action android:name="com.onlinepatch.SmartShare.intent.action.UPDATE_STORAGE_PATH" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.BarcodeScannerActivity"
+            android:name=".activity.BarcodeScannerActivity"
             android:label="@string/text_scanQrCode"
             android:theme="@style/Theme.TBShare.BarcodeScannerActivity" />
-
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.SplashActivity"
+            android:name=".activity.SplashActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.TBShare.NoActionBar" >
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
-        </activity>
-        <activity android:name="com.onlinepatch.SmartShare.activity.WebShareActivity"
+            android:theme="@style/Theme.TBShare.NoActionBar" />
+        <activity
+            android:name=".activity.WebShareActivity"
             android:label="Web Share"
-            android:theme="@style/Theme.TBShare.NoActionBar"/>
-        <activity android:name="com.onlinepatch.SmartShare.activity.HistoryActivity"
+            android:theme="@style/Theme.TBShare.NoActionBar" />
+        <activity
+            android:name=".activity.HistoryActivity"
             android:label=""
-            android:theme="@style/Theme.TBShare.NoActionBar"/>
-        <activity android:name="com.onlinepatch.SmartShare.activity.InviteActivity"
+            android:theme="@style/Theme.TBShare.NoActionBar" />
+        <activity
+            android:name=".activity.InviteActivity"
             android:label=""
-            android:theme="@style/Theme.TBShare.NoActionBar"/>
+            android:theme="@style/Theme.TBShare.NoActionBar" />
 
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -169,7 +171,7 @@
         </provider>
 
         <receiver
-            android:name="com.onlinepatch.SmartShare.receiver.NetworkStatusReceiver"
+            android:name=".receiver.NetworkStatusReceiver"
             android:process=":transfer">
             <intent-filter>
                 <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
@@ -179,24 +181,23 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.onlinepatch.SmartShare.receiver.DialogEventReceiver"
+            android:name=".receiver.DialogEventReceiver"
             android:process=":transfer" />
 
         <service
-            android:name="com.onlinepatch.SmartShare.service.CommunicationService"
+            android:name=".service.CommunicationService"
             android:enabled="true"
             android:label="@string/text_communicationService"
             android:process=":transfer" />
-
         <service
-            android:name="com.onlinepatch.SmartShare.service.DeviceChooserService"
+            android:name=".service.DeviceChooserService"
             android:label="@string/text_chooserTargetService"
             android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
             <intent-filter>
                 <action android:name="android.service.chooser.ChooserTargetService" />
             </intent-filter>
         </service>
-        <service android:name="com.onlinepatch.SmartShare.service.DeviceScannerService">
+        <service android:name=".service.DeviceScannerService">
             <intent-filter>
                 <action android:name="com.onlinepatch.SmartShare.intent.action.SCAN_DEVICES" />
                 <action android:name="com.onlinepatch.SmartShare.intent.action.ADD_IP" />
@@ -204,13 +205,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
-
         <service
-            android:name="com.onlinepatch.SmartShare.service.WorkerService"
+            android:name=".service.WorkerService"
             android:label="@string/text_workerService" />
-
         <service
-            android:name="com.onlinepatch.SmartShare.service.CommunicationToggleTile"
+            android:name=".service.CommunicationToggleTile"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/text_shareFiles"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
@@ -220,6 +219,5 @@
             </intent-filter>
         </service>
     </application>
-
 
 </manifest>

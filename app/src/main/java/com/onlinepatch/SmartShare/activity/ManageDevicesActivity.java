@@ -9,8 +9,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 
 import com.onlinepatch.SmartShare.R;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
 
 public class ManageDevicesActivity extends Activity
 {
@@ -24,10 +24,10 @@ public class ManageDevicesActivity extends Activity
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_close_white_24dp);
 
-        AdView mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
+       /*AdView mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
-        mAdMobAdView.loadAd(adRequest);
+        mAdMobAdView.loadAd(adRequest);*/
 
         findViewById(R.id.fixConnectionButton).setOnClickListener(new View.OnClickListener() {
             @Override

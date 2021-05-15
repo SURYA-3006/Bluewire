@@ -43,7 +43,7 @@ import com.genonbeta.android.framework.ui.callback.SnackbarSupport;
 import com.genonbeta.android.framework.widget.PowerfulActionMode;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -160,10 +160,10 @@ public class ViewTransferActivity
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
-        AdView mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
+        /*ew mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
-        mAdMobAdView.loadAd(adRequest);
+        mAdMobAdView.loadAd(adRequest);*/
 
         if (Intent.ACTION_VIEW.equals(getIntent().getAction()) && getIntent().getData() != null) {
             try {

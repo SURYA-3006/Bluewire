@@ -28,14 +28,16 @@ com/onlinepatch/SmartShare/util/NsdDiscovery.java
  com.onlinepatch.SmartShare.util.NsdDiscovery$1
  com.onlinepatch.SmartShare.util.NsdDiscovery$1$1
  com.onlinepatch.SmartShare.util.NsdDiscovery$2
-com/onlinepatch/SmartShare/fragment/HomeFragment.java
- com.onlinepatch.SmartShare.fragment.HomeFragment
- com.onlinepatch.SmartShare.fragment.HomeFragment$1
- com.onlinepatch.SmartShare.fragment.HomeFragment$2
 com/onlinepatch/SmartShare/activity/WebShareActivity.java
  com.onlinepatch.SmartShare.activity.WebShareActivity
  com.onlinepatch.SmartShare.activity.WebShareActivity$1
  com.onlinepatch.SmartShare.activity.WebShareActivity$2
+com/onlinepatch/SmartShare/activity/ClientActivity.java
+ com.onlinepatch.SmartShare.activity.ClientActivity
+ com.onlinepatch.SmartShare.activity.ClientActivity$1
+ com.onlinepatch.SmartShare.activity.ClientActivity$2
+ com.onlinepatch.SmartShare.activity.ClientActivity$ClientThread
+ com.onlinepatch.SmartShare.activity.ClientActivity$ClientThread$1
 com/onlinepatch/SmartShare/dialog/EstablishConnectionDialog.java
  com.onlinepatch.SmartShare.dialog.EstablishConnectionDialog
  com.onlinepatch.SmartShare.dialog.EstablishConnectionDialog$1
@@ -161,6 +163,11 @@ com/onlinepatch/SmartShare/dialog/ProfileEditorDialog.java
  com.onlinepatch.SmartShare.dialog.ProfileEditorDialog$1
  com.onlinepatch.SmartShare.dialog.ProfileEditorDialog$2
  com.onlinepatch.SmartShare.dialog.ProfileEditorDialog$3
+com/onlinepatch/SmartShare/activity/HomeNavigationActivity.java
+ com.onlinepatch.SmartShare.activity.HomeNavigationActivity
+ com.onlinepatch.SmartShare.activity.HomeNavigationActivity$1
+ com.onlinepatch.SmartShare.activity.HomeNavigationActivity$2
+ com.onlinepatch.SmartShare.activity.HomeNavigationActivity$3
 com/onlinepatch/SmartShare/util/OnDeviceSelectedListener.java
  com.onlinepatch.SmartShare.util.OnDeviceSelectedListener
 com/onlinepatch/SmartShare/db/AccessDatabase.java
@@ -234,9 +241,6 @@ com/onlinepatch/SmartShare/activity/MainActivity.java
  com.onlinepatch.SmartShare.activity.MainActivity$4
  com.onlinepatch.SmartShare.activity.MainActivity$5
  com.onlinepatch.SmartShare.activity.MainActivity$6
- com.onlinepatch.SmartShare.activity.MainActivity$7
- com.onlinepatch.SmartShare.activity.MainActivity$8
- com.onlinepatch.SmartShare.activity.MainActivity$9
  com.onlinepatch.SmartShare.activity.MainActivity$ActivityReceiver
 com/onlinepatch/SmartShare/widget/GalleryGroupEditableListAdapter.java
  com.onlinepatch.SmartShare.widget.GalleryGroupEditableListAdapter
@@ -275,6 +279,10 @@ com/onlinepatch/SmartShare/dialog/DeviceInfoDialog.java
  com.onlinepatch.SmartShare.dialog.DeviceInfoDialog$1
  com.onlinepatch.SmartShare.dialog.DeviceInfoDialog$2
  com.onlinepatch.SmartShare.dialog.DeviceInfoDialog$3
+com/onlinepatch/SmartShare/fragment/HomeOldFragment.java
+ com.onlinepatch.SmartShare.fragment.HomeOldFragment
+ com.onlinepatch.SmartShare.fragment.HomeOldFragment$1
+ com.onlinepatch.SmartShare.fragment.HomeOldFragment$2
 com/onlinepatch/SmartShare/dialog/RationalePermissionRequest.java
  com.onlinepatch.SmartShare.dialog.RationalePermissionRequest
  com.onlinepatch.SmartShare.dialog.RationalePermissionRequest$1
@@ -404,6 +412,11 @@ com/onlinepatch/SmartShare/fragment/VideoListFragment.java
  com.onlinepatch.SmartShare.fragment.VideoListFragment$1$2
  com.onlinepatch.SmartShare.fragment.VideoListFragment$1$3
  com.onlinepatch.SmartShare.fragment.VideoListFragment$2
+com/onlinepatch/SmartShare/activity/ChatNavigationActivity.java
+ com.onlinepatch.SmartShare.activity.ChatNavigationActivity
+ com.onlinepatch.SmartShare.activity.ChatNavigationActivity$1
+ com.onlinepatch.SmartShare.activity.ChatNavigationActivity$2
+ com.onlinepatch.SmartShare.activity.ChatNavigationActivity$3
 com/onlinepatch/SmartShare/service/WorkerService.java
  com.onlinepatch.SmartShare.service.WorkerService
  com.onlinepatch.SmartShare.service.WorkerService$1
@@ -425,6 +438,12 @@ com/onlinepatch/SmartShare/activity/TextEditorActivity.java
  com.onlinepatch.SmartShare.activity.TextEditorActivity$2$2
 com/onlinepatch/SmartShare/util/NotReadyException.java
  com.onlinepatch.SmartShare.util.NotReadyException
+com/onlinepatch/SmartShare/activity/ServerActivity.java
+ com.onlinepatch.SmartShare.activity.ServerActivity
+ com.onlinepatch.SmartShare.activity.ServerActivity$1
+ com.onlinepatch.SmartShare.activity.ServerActivity$2
+ com.onlinepatch.SmartShare.activity.ServerActivity$CommunicationThread
+ com.onlinepatch.SmartShare.activity.ServerActivity$ServerThread
 com/onlinepatch/SmartShare/adapter/PathResolverRecyclerAdapter.java
  com.onlinepatch.SmartShare.adapter.PathResolverRecyclerAdapter
  com.onlinepatch.SmartShare.adapter.PathResolverRecyclerAdapter$1
@@ -495,6 +514,9 @@ com/onlinepatch/SmartShare/adapter/TransferGroupListAdapter.java
  com.onlinepatch.SmartShare.adapter.TransferGroupListAdapter$PreloadedGroup
 com/onlinepatch/SmartShare/dialog/WebShareDetailsDialog.java
  com.onlinepatch.SmartShare.dialog.WebShareDetailsDialog
+com/onlinepatch/SmartShare/activity/BlueMainActivity.java
+ com.onlinepatch.SmartShare.activity.BlueMainActivity
+ com.onlinepatch.SmartShare.activity.BlueMainActivity$1
 com/onlinepatch/SmartShare/adapter/TransferListAdapter.java
  com.onlinepatch.SmartShare.adapter.TransferListAdapter
  com.onlinepatch.SmartShare.adapter.TransferListAdapter$1

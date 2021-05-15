@@ -28,8 +28,8 @@ import com.onlinepatch.SmartShare.service.CommunicationService;
 import com.onlinepatch.SmartShare.widget.GroupEditableListAdapter;
 import com.genonbeta.android.database.SQLQuery;
 import com.genonbeta.android.framework.widget.PowerfulActionMode;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -79,10 +79,10 @@ public class TransferGroupListFragment
     {
         View adaptedView = getLayoutInflater().inflate(R.layout.main, null, false);
         ((ViewGroup) mainContainer).addView(adaptedView);
-        AdView mAdMobAdView = (AdView) adaptedView.findViewById(R.id.admob_adview);
+        /*AdView mAdMobAdView = (AdView) adaptedView.findViewById(R.id.admob_adview);
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
-        mAdMobAdView.loadAd(adRequest);
+        mAdMobAdView.loadAd(adRequest);*/
 
         return super.onListView(mainContainer, (FrameLayout) adaptedView.findViewById(R.id.fragmentContainer));
     }

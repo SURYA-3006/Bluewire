@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ClientActivity">
+
+    <EditText
+        android:id="@+id/etIP"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:hint="IP-Address"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/connect_ip"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
+        android:layout_alignLeft="@+id/etIP"
+        android:layout_marginLeft="290dp"
+        android:layout_marginRight="0dp"
+        android:text="UPDATE IP" />
+
+    <Button
+        android:id="@+id/connect_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etIP"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:onClick="onClick"
+        android:text="Connect to server" />
+
+    <ScrollView
+        android:layout_width="371dp"
+        android:layout_height="471dp"
+        android:layout_above="@+id/edMessage"
+        android:layout_below="@+id/connect_server"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:id="@+id/msgList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/edMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/send_data"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="9dp"
+        android:hint="Message from Client"
+        android:inputType="textCapSentences" />
+
+    <Button
+        android:id="@+id/send_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClick"
+        android:text="Send Message to Server"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

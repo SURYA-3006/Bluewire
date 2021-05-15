@@ -248,7 +248,7 @@
 
     </androidx.cardview.widget.CardView>
 
-    <com.google.android.gms.ads.AdView
+    <!--<com.google.android.gms.ads.AdView
         android:id="@+id/admob_adview"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -259,6 +259,6 @@
         app:adUnitId="@string/banner_ad_unit"
         tools:visibility="visible">
 
-    </com.google.android.gms.ads.AdView>
+    </com.google.android.gms.ads.AdView>-->
 
 </LinearLayout>

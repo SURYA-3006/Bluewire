@@ -10,17 +10,6 @@
             android:title="Home" />
 
         <item
-            android:id="@+id/menu_activity_main_manage_devices"
-            android:icon="@drawable/ic_devices_white_24dp"
-            android:title="@string/text_manageDevices"
-            android:visible="false" />
-
-        <item
-            android:id="@+id/menu_activity_main_web_share"
-            android:icon="@drawable/ic_web_white_24dp"
-            android:title="Web Share" />
-
-        <item
             android:id="@+id/menu_activity_share"
             android:icon="@drawable/ic_send_white_24dp"
             android:title="Send Files" />
@@ -29,6 +18,10 @@
             android:id="@+id/menu_activity_receive"
             android:icon="@drawable/ic_receive"
             android:title="Receive Files" />
+        <item android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Exit">
+        </item>
 
     </group>
 
@@ -43,21 +36,23 @@
                 android:id="@+id/about_me"
                 android:icon="@drawable/ic_about"
                 android:title="About Us" />
-
-            <item
-                android:id="@+id/privacypolicy"
-                android:icon="@drawable/ic_privacy"
-                android:title="Privacy Policy" />
-
             <item
                 android:id="@+id/rate_us"
                 android:icon="@drawable/ic_rateus"
                 android:title="Rate Us" />
 
+
+            <!--<item
+                android:id="@+id/privacypolicy"
+                android:icon="@drawable/ic_privacy"
+                android:title="Privacy Policy" />
+
+
+
             <item
                 android:id="@+id/moreapp"
                 android:icon="@drawable/ic_more"
-                android:title="More Apps" />
+                android:title="More Apps" />-->
 
         </menu>
     </item>

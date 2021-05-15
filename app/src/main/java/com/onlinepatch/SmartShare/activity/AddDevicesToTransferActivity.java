@@ -29,7 +29,7 @@ import com.onlinepatch.SmartShare.service.WorkerService;
 import com.genonbeta.android.framework.ui.callback.SnackbarSupport;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -85,10 +85,10 @@ public class AddDevicesToTransferActivity extends Activity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        AdView mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
+        /*AdView mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
-        mAdMobAdView.loadAd(adRequest);
+        mAdMobAdView.loadAd(adRequest);*/
 
         Bundle assigneeFragmentArgs = new Bundle();
         assigneeFragmentArgs.putLong(TransferAssigneeListFragment.ARG_GROUP_ID, mGroup.groupId);

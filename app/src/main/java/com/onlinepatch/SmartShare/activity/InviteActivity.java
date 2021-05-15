@@ -23,7 +23,7 @@ import com.onlinepatch.SmartShare.R;
 import com.onlinepatch.SmartShare.fragment.HistoryFragment;
 import com.genonbeta.android.framework.widget.PowerfulActionMode;
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.WriterException;
@@ -69,10 +69,10 @@ public class InviteActivity extends Activity
 
         }
 
-        AdView mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
+        /*AdView mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
-        mAdMobAdView.loadAd(adRequest);
+        mAdMobAdView.loadAd(adRequest);*/
 
         QRCodeWriter writer = new QRCodeWriter();
         try {

@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
 
-        <com.google.android.gms.ads.AdView
+        <!--<com.google.android.gms.ads.AdView
             android:id="@+id/admob_adview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,7 +22,7 @@
 
             app:adUnitId="@string/banner_ad_unit">
 
-        </com.google.android.gms.ads.AdView>
+        </com.google.android.gms.ads.AdView>-->
 
         <FrameLayout
             android:id="@+id/fragmentContainer"

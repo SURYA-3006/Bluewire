@@ -32,12 +32,12 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\row_video_grid.xml"
     },
     {
-        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\color_button_text_color_selector.xml.flat",
-        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\color\\button_text_color_selector.xml"
-    },
-    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\menu_actions_search.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\menu\\actions_search.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\color_button_text_color_selector.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\color\\button_text_color_selector.xml"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_play_arrow_white_24dp.xml.flat",
@@ -58,6 +58,10 @@
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\color_selection.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\color\\selection.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_close_white_24dp_static.png.flat",
@@ -100,8 +104,16 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\activity_barcode_scanner.xml"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_policy_24.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_baseline_policy_24.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_video.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\row_video.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_bluewiresplashscreen.jpg.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-v21\\bluewiresplashscreen.jpg"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_certificate_white_24dp.xml.flat",
@@ -110,6 +122,10 @@
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\menu_actions_file_explorer.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\menu\\actions_file_explorer.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_selector_dark.xml.flat",
@@ -124,16 +140,20 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\round_selector_dark.xml"
     },
     {
-        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_word_box_white_24dp.xml.flat",
-        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_file_word_box_white_24dp.xml"
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_compare_arrows_white_24dp_static.png.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-hdpi\\ic_compare_arrows_white_24dp_static.png"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_selector.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\rect_selector.xml"
     },
     {
-        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_compare_arrows_white_24dp_static.png.flat",
-        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-hdpi\\ic_compare_arrows_white_24dp_static.png"
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_word_box_white_24dp.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_file_word_box_white_24dp.xml"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_down_white_24dp.xml.flat",
@@ -168,12 +188,12 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\menu\\action_mode_file.xml"
     },
     {
-        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_alert_circle_outline_white_24dp_static.png.flat",
-        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-mdpi\\ic_alert_circle_outline_white_24dp_static.png"
-    },
-    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_progress.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\dialog_progress.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_alert_circle_outline_white_24dp_static.png.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-mdpi\\ic_alert_circle_outline_white_24dp_static.png"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_selected_dark.xml.flat",
@@ -208,6 +228,10 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-v21\\round_selector_dark.xml"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_share_24.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_baseline_share_24.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_popup_menu_dark.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\background_popup_menu_dark.xml"
     },
@@ -230,10 +254,6 @@
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_edge_action_dark.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\background_edge_action_dark.xml"
-    },
-    {
-        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
-        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_video_white_24dp.xml.flat",
@@ -416,6 +436,14 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\menu\\actions_add_devices.xml"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_chat_24.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_baseline_chat_24.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_close_white_24dp_static.png.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-mdpi\\ic_close_white_24dp_static.png"
     },
@@ -440,6 +468,10 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_help_circle_white_24dp.xml"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_client.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\activity_client.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_available_interface.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\dialog_available_interface.xml"
     },
@@ -460,12 +492,20 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-hdpi\\ic_close_white_24dp_static.png"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_white_24dp.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_search_white_24dp.xml"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_android_white_36dp.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_android_white_36dp.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home_old.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\fragment_home_old.xml"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state_selected_image_rounded_guiding.xml.flat",
@@ -498,6 +538,10 @@
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_content_copy_white_24dp.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_content_copy_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\menu_drawer_menu.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\menu\\drawer_menu.xml"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_zip_box_white_24dp.xml.flat",
@@ -548,6 +592,10 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_done_white_24dp.xml"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_header.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\header.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_qrcode_white_128dp.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_qrcode_white_128dp.xml"
     },
@@ -596,8 +644,16 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_web_white_24dp.xml"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_sharefiles_24.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_baseline_sharefiles_24.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_profile_editor.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\dialog_profile_editor.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashscreen.jpg.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\splashscreen.jpg"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_share_white_24dp.xml.flat",
@@ -606,6 +662,10 @@
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\color_text_button_ripple_color.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\color\\text_button_ripple_color.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_server.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\activity_server.xml"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_wifi_white_24dp.xml.flat",
@@ -622,6 +682,10 @@
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_google_spreadsheet_white_24dp.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_google_spreadsheet_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_coptions.xml.flat",
@@ -740,8 +804,16 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\state_selected_image_square_dark.xml"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_smartphone_24.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_baseline_smartphone_24.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\menu_actions_abs_editable_list.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\menu\\actions_abs_editable_list.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_baseline_home_24.xml"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_folder_network_white_24dp.xml.flat",
@@ -812,6 +884,10 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-xhdpi\\ic_alert_circle_outline_white_24dp_static.png"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home_navigation.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\activity_home_navigation.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_download_white_24dp.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_file_download_white_24dp.xml"
     },
@@ -840,6 +916,10 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_account_box_white_24dp.xml"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_blue_main.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\activity_blue_main.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\menu_actions_transfer.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\menu\\actions_transfer.xml"
     },
@@ -852,8 +932,16 @@
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-xxhdpi\\ic_check_white_24dp_static.png"
     },
     {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_round_button.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable-v21\\round_button.xml"
+    },
+    {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_edit_white_24dp.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_edit_white_24dp.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_exit_to_app_24.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_baseline_exit_to_app_24.xml"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_compare_arrows_white_24dp_static.png.flat",
@@ -930,6 +1018,10 @@
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_data_transfer.xml.flat",
         "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\drawable\\ic_data_transfer.xml"
+    },
+    {
+        "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat_navigation.xml.flat",
+        "source": "E:\\Android\\SmartShare\\app\\src\\main\\res\\layout\\activity_chat_navigation.xml"
     },
     {
         "merged": "E:\\Android\\SmartShare\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rateus.PNG.flat",

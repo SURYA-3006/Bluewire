@@ -1,6 +1,5 @@
 package com.onlinepatch.SmartShare.activity;
 
-import android.content.ActivityNotFoundException;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -14,9 +13,6 @@ import android.os.Bundle;
 import android.os.LocaleList;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -32,15 +28,15 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.onlinepatch.SmartShare.R;
-import com.onlinepatch.SmartShare.fragment.HomeFragment;
+import com.onlinepatch.SmartShare.fragment.HomeOldFragment;
 import com.onlinepatch.SmartShare.model.NetworkDevice;
 import com.onlinepatch.SmartShare.service.CommunicationService;
 import com.onlinepatch.SmartShare.util.AppUtils;
 import com.onlinepatch.SmartShare.util.PowerfulActionModeSupport;
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.genonbeta.android.framework.widget.PowerfulActionMode;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
 import com.google.android.material.navigation.NavigationView;
 
 import static android.Manifest.permission.READ_PHONE_STATE;
@@ -55,7 +51,7 @@ public class MainActivity
     private NavigationView mNavigationView;
     private DrawerLayout mDrawerLayout;
     private PowerfulActionMode mActionMode;
-    private HomeFragment mHomeFragment;
+    private HomeOldFragment mHomeOldFragment;
     private IntentFilter mFilter = new IntentFilter();
     private BroadcastReceiver mReceiver = null;
     NetworkDevice localDevice;
@@ -80,7 +76,7 @@ public class MainActivity
             requestPermission();
 
         }
-        mHomeFragment = (HomeFragment) getSupportFragmentManager().findFragmentById(R.id.activitiy_home_fragment);
+        mHomeOldFragment = (HomeOldFragment) getSupportFragmentManager().findFragmentById(R.id.activitiy_home_fragment);
         mActionMode = findViewById(R.id.content_powerful_action_mode);
         mNavigationView = findViewById(R.id.nav_view);
         mDrawerLayout = findViewById(R.id.drawer_layout);
@@ -89,10 +85,10 @@ public class MainActivity
         toggle.syncState();
 
 
-      AdView mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
+      /*ew mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
       AdRequest adRequest = new AdRequest.Builder()
       .build();
-       mAdMobAdView.loadAd(adRequest);
+       mAdMobAdView.loadAd(adRequest);*/
         LinearLayout actionHistory = (LinearLayout) findViewById(R.id.history);
         actionHistory.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,13 +97,13 @@ public class MainActivity
             }
         });
 
-        LinearLayout actionInvite = (LinearLayout) findViewById(R.id.invite);
+        /*LinearLayout actionInvite = (LinearLayout) findViewById(R.id.invite);
         actionInvite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this, InviteActivity.class));
             }
-        });
+        });*/
 
 
 
@@ -225,20 +221,20 @@ public class MainActivity
     private void applyAwaitingDrawerAction()
     {
         if (mChosenMenuItemId == 0) {
-        } else if (R.id.menu_activity_main_manage_devices == mChosenMenuItemId) {
+        } /*else if (R.id.menu_activity_main_manage_devices == mChosenMenuItemId) {
             startActivity(new Intent(MainActivity.this, ConnectionManagerActivity.class)
                     .putExtra(ConnectionManagerActivity.EXTRA_REQUEST_TYPE, ConnectionManagerActivity.RequestType.RETURN_RESULT.toString())
                     .putExtra(ConnectionManagerActivity.EXTRA_ACTIVITY_SUBTITLE, "Manage Devices"));
 
           //  startActivity(new Intent(this, ManageDevicesActivity.class));
 
-        } else if (R.id.menu_activity_home == mChosenMenuItemId) {
-            startActivity(new Intent(this, MainActivity.class));
+        } */else if (R.id.menu_activity_home == mChosenMenuItemId) {
+            startActivity(new Intent(this, HomeNavigationActivity.class));
          //   finish();
 
-        } else if (R.id.menu_activity_main_web_share == mChosenMenuItemId) {
+        } /*else if (R.id.menu_activity_main_web_share == mChosenMenuItemId) {
             startActivity(new Intent(this, WebShareActivity.class));
-        } else if (R.id.menu_activity_share == mChosenMenuItemId) {
+        } */else if (R.id.menu_activity_share == mChosenMenuItemId) {
             startActivity(new Intent(this, ContentSharingActivity.class));
 
         } else if (R.id.menu_activity_receive == mChosenMenuItemId) {
@@ -246,7 +242,7 @@ public class MainActivity
                     .putExtra(ConnectionManagerActivity.EXTRA_ACTIVITY_SUBTITLE, getString(R.string.text_receive))
                     .putExtra(ConnectionManagerActivity.EXTRA_REQUEST_TYPE, ConnectionManagerActivity.RequestType.MAKE_ACQUAINTANCE.toString()));
 
-        } else if (R.id.nav_share == mChosenMenuItemId) {
+        } /*else if (R.id.nav_share == mChosenMenuItemId) {
 
             Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
@@ -282,11 +278,15 @@ public class MainActivity
                 }
             });
             alert.show();
-        } else if (R.id.rate_us == mChosenMenuItemId) {
+        } /*else if (R.id.rate_us == mChosenMenuItemId) {
 
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + getApplicationContext().getPackageName())));
-
-        } else if (R.id.moreapp == mChosenMenuItemId) {
+        }*/
+            else if (R.id.nav_exit == mChosenMenuItemId) {
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+            } /*else if (R.id.moreapp == mChosenMenuItemId) {
 
             Uri uri = Uri.parse("market://search?q=pub:" + "PA Production"); //Developer AC Name
             Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
@@ -296,7 +296,7 @@ public class MainActivity
                 startActivity(new Intent(Intent.ACTION_VIEW,
                         Uri.parse("http://play.google.com/store/search?q=pub:" + "PA Production"))); //Developer AC Name
             }
-        }
+        }*/
 
         mChosenMenuItemId = 0;
     }
@@ -307,22 +307,8 @@ public class MainActivity
                 .title(R.string.app_name)
                 .customView(R.layout.about, true)
                 .backgroundColor(getResources().getColor(R.color.colorPrimaryDark))
-                .titleColorRes(android.R.color.white)
-                .positiveText("MORE APPS")
-                .positiveColor(getResources().getColor(android.R.color.white))
-                .icon(getResources().getDrawable(R.mipmap.ic_launcher))
-                .limitIconToDefaultSize()
-                .onPositive((dialog, which) -> {
+                .titleColorRes(android.R.color.white);
 
-                    Uri uri = Uri.parse("market://search?q=pub:" + "PA Production"); //Developer AC Name
-                    Intent goToMarket = new Intent(Intent.ACTION_VIEW, uri);
-                    try {
-                        startActivity(goToMarket);
-                    } catch (ActivityNotFoundException e) {
-                        startActivity(new Intent(Intent.ACTION_VIEW,
-                                Uri.parse("http://play.google.com/store/search?q=pub:" + "PA Production"))); //Developer AC Name
-                    }
-                });
 
         MaterialDialog materialDialog = bulder.build();
 

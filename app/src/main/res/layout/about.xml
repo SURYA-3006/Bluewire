@@ -19,12 +19,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    <TextView
+    <!--<TextView
         android:gravity="center"
         android:textColor="@android:color/white"
         android:text="@string/developer"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" />-->
 
 </LinearLayout>

@@ -45,7 +45,7 @@ import com.onlinepatch.SmartShare.view.RadarScanView;
 import com.genonbeta.android.framework.ui.callback.SnackbarSupport;
 import com.genonbeta.android.framework.util.Interrupter;
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdView;
 import com.google.android.material.appbar.AppBarLayout;
 import com.google.android.material.appbar.CollapsingToolbarLayout;
 import com.google.android.material.snackbar.Snackbar;
@@ -408,10 +408,10 @@ public class ConnectionManagerActivity
             radarView = view.findViewById(R.id.radar);
             radarView.start();
 
-        AdView mAdMobAdView = (AdView) view.findViewById(R.id.admob_adview);
+        /*AdView mAdMobAdView = (AdView) view.findViewById(R.id.admob_adview);
          AdRequest adRequest = new AdRequest.Builder()
         .build();
-         mAdMobAdView.loadAd(adRequest);
+         mAdMobAdView.loadAd(adRequest);*/
 
             Configuration configuration = getActivity().getResources().getConfiguration();
             if (Build.VERSION.SDK_INT >= 24) {

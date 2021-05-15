@@ -1,26 +1,27 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:161:9-169:20
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:163:9-171:20
 	android:grantUriPermissions
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:165:13-47
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:167:13-47
 	android:authorities
 		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:163:13-64
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:165:13-64
 	android:exported
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:164:13-37
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:166:13-37
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:162:13-62
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:164:13-62
 manifest
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
-INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
-INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
-INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-223:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\203afe1376f327626836a495c62b5d8b\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a6fd4e8b24c90a9de4700afb44d2e6bf\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\21f148cfa3d659f847a7fdc172733ea2\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.preference:preference:1.1.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fcb6a1b0d1e3908e4ab1e2225b0b9342\preference-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [com.genonbeta.android:framework:1.0.2.8] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4c5de3f72b4ab29f95571cadcd35d530\jetified-framework-1.0.2.8\AndroidManifest.xml:2:1-11:12
 MERGED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:2:1-45:12
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ad4a92041a84edbda72737cb7fd43c76\navigation-ui-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0807611a2c3e818c339f709001efa3c1\material-1.3.0-alpha01\AndroidManifest.xml:17:1-24:12
 MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b8b1528e4ffe722bf9cea3f533a90c8e\jetified-core-0.9.6.0\AndroidManifest.xml:2:1-15:12
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0eaae5f3b780ff9e3b63c08a2420c455\jetified-library-1.4.2\AndroidManifest.xml:6:1-16:12
@@ -33,13 +34,13 @@ MERGED from [com.genonbeta.android:gdatabase:1.0.2.6.1] C:\Users\surya\.gradle\c
 MERGED from [com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:2:1-16:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c9eca163b291abb9bf83cadc0574d7b3\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.gms:play-services-ads:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96b40f7051cc875431f5cb1d2919a8cc\jetified-play-services-ads-19.3.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0e1471781abb507de6f73bf6c0b40e45\navigation-fragment-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\684eb4796be0563db6581302b55b0b8e\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0b49bc934b475fbb8758c3106a68dc8d\browser-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5e02235b90c09b6adab47ed13a885e87\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\120db8c8829f983cc37bb205ea50d4e6\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\42efa3a714625c92b3430eba14844546\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a944ef0e75e84f3d134782295423a8c8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\6c2979cc4f67217f3821790394ed7db6\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-gass:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bcaa71b51b73d6ff84cd26d99328de9e\jetified-play-services-gass-19.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b824e301c11021faf075a18d62d07e20\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:17:1-42:12
@@ -58,16 +59,19 @@ MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\surya\.
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96d9c28e62572d0bb9e1357c67887193\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\72400daa16d7be69cc5e09f5d35ead97\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b3d20a1e5d305c56c0cfa615f8699d04\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\90b425acd1a4f06420de915231b93085\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\94a155561ee4ef2c6c2dbcd8689615e1\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ffc1f949b2ebdb2bbaf87d384e49fe47\customview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\581a7bd8f75204ab7317c68d586f399a\transition-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91dd17cd130409cfce21610b6b8acf87\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\955a374cbfd64ab3f180281e7f6b2f0a\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\f752e0e8c250ce9bb1c1cf63975f9e06\drawerlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\90b425acd1a4f06420de915231b93085\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\94a155561ee4ef2c6c2dbcd8689615e1\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5630d55d36fc36f852baa9bf4924bb74\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\db6eaa44b3b3bc8ae0a09943df8b9684\transition-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\1cd5d99b152227edb2b9f93ca446cf39\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5773790c7c01eca78de344795ae6dd11\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\451b41364ba0d3f745c8b1abd60ab12f\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5242ad0d6194578a37d0be1a8e816898\navigation-runtime-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\52f09c80c71aac1c58629e14e0f96bcb\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\40e0996ca5bf61ab489acbab7d9a22f5\navigation-common-2.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.3.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\abb81fc13f51c3a390e514a0f970d9a3\core-1.3.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\e1082e42a2b70fbb8bdcdd2bdd886553\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4fb8deacc9134080425bd2866dcccbfa\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
@@ -86,22 +90,22 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\surya\.g
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0316c84cde042bf917ab4c3580afd47f\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\499507b54fac58a1e53c038be1adc7fb\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-ads-base:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\2e1842c27ab28535940c610e07283b4c\jetified-play-services-ads-base-19.3.0\AndroidManifest.xml:2:1-9:12
-INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
-INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
-INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-223:12
+INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-223:12
 	package
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:4:5-41
 		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-223:12
 		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-225:12
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:1-223:12
 		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:2:11-69
@@ -130,31 +134,31 @@ ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:9:5-79
 	android:name
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.FOREGROUND_SERVICE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:11:5-77
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:10:5-77
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:11:22-74
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:10:22-74
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:12:5-75
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:11:5-75
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:12:22-72
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:11:22-72
 uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:13:5-83
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:12:5-83
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:13:22-80
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:12:22-80
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:14:5-78
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:13:5-78
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:14:22-75
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:13:22-75
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:15:5-81
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:14:5-81
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:15:22-78
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:14:22-78
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:16:5-17:47
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:15:5-17:47
 	tools:ignore
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:17:9-44
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:16:22-70
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:16:9-57
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:18:5-81
 	android:name
@@ -170,7 +174,7 @@ MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\trans
 	android:name
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:20:22-63
 uses-permission#android.permission.WAKE_LOCK
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:22:5-68
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:21:5-68
 MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:18:5-68
 MERGED from [com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:18:5-68
 MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:24:5-68
@@ -178,9 +182,9 @@ MERGED from [com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\cac
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8be302ac16a075273358c11679007b69\jetified-play-services-measurement-sdk-api-17.1.0\AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:22:22-65
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:21:22-65
 application
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:24:5-222:19
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:23:5-221:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a6fd4e8b24c90a9de4700afb44d2e6bf\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a6fd4e8b24c90a9de4700afb44d2e6bf\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
 MERGED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:35:5-43:19
@@ -236,326 +240,356 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\su
 MERGED from [com.google.android.gms:play-services-ads-base:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\2e1842c27ab28535940c610e07283b4c\jetified-play-services-ads-base-19.3.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-ads-base:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\2e1842c27ab28535940c610e07283b4c\jetified-play-services-ads-base-19.3.0\AndroidManifest.xml:7:5-20
 	android:supportsRtl
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:31:9-35
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:30:9-35
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:30:9-41
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:29:9-41
 	android:appComponentFactory
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:27:9-55
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:26:9-55
 		REJECTED from [androidx.core:core:1.3.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\abb81fc13f51c3a390e514a0f970d9a3\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:fullBackupContent
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:28:9-41
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:27:9-41
 	tools:ignore
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:33:9-48
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:32:9-48
 	android:icon
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:29:9-43
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:28:9-43
 	android:allowBackup
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:26:9-35
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:25:9-35
 	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:32:9-45
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:31:9-45
 	tools:replace
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:34:9-52
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:33:9-52
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:25:9-59
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:24:9-33
+activity#com.onlinepatch.SmartShare.activity.ChatNavigationActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:34:9-37:24
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:35:13-33
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:36:13-69
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:34:19-66
+activity#com.onlinepatch.SmartShare.activity.HomeNavigationActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:38:9-42:20
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:40:13-33
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:41:13-69
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:39:13-60
+activity#com.onlinepatch.SmartShare.activity.ClientActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:43:9-61
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:43:19-58
+activity#com.onlinepatch.SmartShare.activity.ServerActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:44:9-61
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:44:19-58
+activity#com.onlinepatch.SmartShare.activity.BlueMainActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:45:9-55:20
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:47:13-69
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:46:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:49:13-53:29
+action#android.intent.action.MAIN
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:52:17-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:52:27-74
 meta-data#com.google.android.gms.version
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:36:9-38:69
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:57:9-59:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96d9c28e62572d0bb9e1357c67887193\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96d9c28e62572d0bb9e1357c67887193\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:38:13-66
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:59:13-66
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:37:13-58
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:58:13-58
 meta-data#com.google.android.gms.ads.APPLICATION_ID
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:39:9-41:52
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:60:9-62:52
 	android:value
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:41:13-49
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:62:13-49
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:40:13-69
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:61:13-69
 activity#com.onlinepatch.SmartShare.activity.MainActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:43:9-49:20
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:64:9-68:64
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:45:13-29
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:66:13-40
 	android:launchMode
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:46:13-44
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:67:13-44
 	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:47:13-61
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:68:13-61
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:44:13-76
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:65:13-50
 activity#com.onlinepatch.SmartShare.activity.ShareActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:50:9-66:20
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:69:9-84:20
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:52:13-45
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:71:13-45
 	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:53:13-77
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:72:13-77
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:51:13-77
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:70:13-51
 intent-filter#action:name:android.intent.action.SEND+action:name:android.intent.action.SEND_MULTIPLE+action:name:com.onlinepatch.SmartShare.intent.action.TBShare_SEND+action:name:com.onlinepatch.SmartShare.intent.action.TBShare_SEND_MULTIPLE+action:name:com.onlinepatch.SmartShare.intent.action.TBShare_SEND_TEXT+category:name:android.intent.category.DEFAULT+data:mimeType:*/*
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:54:13-63:29
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:73:13-83:29
 action#com.onlinepatch.SmartShare.intent.action.TBShare_SEND_TEXT
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:55:17-101
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:74:17-101
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:55:25-98
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:74:25-98
 action#android.intent.action.SEND
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:56:17-69
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:75:17-69
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:56:25-66
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:75:25-66
 action#android.intent.action.SEND_MULTIPLE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:57:17-78
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:76:17-78
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:57:25-75
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:76:25-75
 action#com.onlinepatch.SmartShare.intent.action.TBShare_SEND
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:58:17-96
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:77:17-96
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:58:25-93
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:77:25-93
 action#com.onlinepatch.SmartShare.intent.action.TBShare_SEND_MULTIPLE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:59:17-105
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:78:17-105
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:59:25-102
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:78:25-102
 category#android.intent.category.DEFAULT
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:61:17-76
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:17-76
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:61:27-73
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:27-73
 data
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:62:17-48
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:17-48
 	android:host
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:107:23-39
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:118:23-39
 	android:scheme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:103:23-44
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:115:23-44
 	android:pathPattern
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:108:23-56
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:119:23-56
 	android:mimeType
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:62:23-45
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:23-45
 activity#com.onlinepatch.SmartShare.activity.AddDevicesToTransferActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:68:9-71:80
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:85:9-88:80
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:70:13-62
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:87:13-62
 	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:71:13-77
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:88:13-77
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:69:13-92
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:86:13-66
 activity#com.onlinepatch.SmartShare.activity.FileExplorerActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:73:9-76:80
-	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:75:13-54
-	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:76:13-77
-	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:74:13-84
-activity#com.onlinepatch.SmartShare.activity.ConnectionManagerActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:78:9-81:80
-	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:13-56
-	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:81:13-77
-	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:79:13-89
-activity#com.onlinepatch.SmartShare.activity.ContentSharingActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:83:9-87:80
-	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:85:13-46
-	android:launchMode
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:86:13-44
-	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:87:13-77
-	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:84:13-86
-activity#com.onlinepatch.SmartShare.activity.FilePickerActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:89:9-91:57
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:89:9-92:80
 	android:label
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:91:13-54
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:92:13-77
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:90:13-82
-activity#com.onlinepatch.SmartShare.activity.ViewTransferActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:93:9-111:20
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:90:13-58
+activity#com.onlinepatch.SmartShare.activity.ConnectionManagerActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:93:9-96:80
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:95:13-59
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:95:13-56
 	android:theme
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:96:13-77
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:94:13-84
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:94:13-63
+activity#com.onlinepatch.SmartShare.activity.ContentSharingActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:97:9-101:80
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:99:13-46
+	android:launchMode
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:100:13-44
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:101:13-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:98:13-60
+activity#com.onlinepatch.SmartShare.activity.FilePickerActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:102:9-104:57
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:104:13-54
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:103:13-56
+activity#com.onlinepatch.SmartShare.activity.ViewTransferActivity
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:105:9-122:20
+	android:label
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:107:13-59
+	android:theme
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:108:13-77
+	android:name
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:106:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:*+data:mimeType:*/*+data:pathPattern:.*\\..*\\.tshare+data:pathPattern:.*\\.tshare+data:scheme:content+data:scheme:file
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:97:13-110:29
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:109:13-121:29
 action#android.intent.action.VIEW
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:98:17-69
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:110:17-69
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:98:25-66
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:110:25-66
 category#android.intent.category.BROWSABLE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:101:17-78
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:113:17-78
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:101:27-75
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:113:27-75
 activity#com.onlinepatch.SmartShare.activity.ManageDevicesActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:113:9-116:63
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:123:9-126:64
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:115:13-55
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:125:13-55
 	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:116:13-61
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:126:13-61
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:114:13-85
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:124:13-59
 activity#com.onlinepatch.SmartShare.activity.SearchActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:118:9-120:51
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:127:9-129:51
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:120:13-48
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:129:13-48
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:119:13-78
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:128:13-52
 activity#com.onlinepatch.SmartShare.activity.TextEditorActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:122:9-124:55
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:130:9-132:55
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:124:13-52
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:132:13-52
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:123:13-82
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:131:13-56
 activity#com.onlinepatch.SmartShare.activity.ChangeStoragePathActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:126:9-133:20
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:133:9-141:20
 	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:128:13-63
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:135:13-63
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:127:13-89
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:134:13-63
 intent-filter#action:name:com.onlinepatch.SmartShare.intent.action.UPDATE_STORAGE_PATH+category:name:android.intent.category.DEFAULT
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:129:13-132:29
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:136:13-140:29
 action#com.onlinepatch.SmartShare.intent.action.UPDATE_STORAGE_PATH
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:130:17-103
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:137:17-103
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:130:25-100
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:137:25-100
 activity#com.onlinepatch.SmartShare.activity.BarcodeScannerActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:135:9-138:75
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:142:9-145:75
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:137:13-52
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:144:13-52
 	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:138:13-72
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:145:13-72
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:136:13-86
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:143:13-60
 activity#com.onlinepatch.SmartShare.activity.SplashActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:140:9-150:20
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:146:9-149:64
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:142:13-45
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:148:13-45
 	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:143:13-61
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:149:13-61
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:141:13-78
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:145:13-148:29
-action#android.intent.action.MAIN
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:146:17-69
-	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:146:25-66
-category#android.intent.category.LAUNCHER
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:147:17-77
-	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:147:27-74
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:147:13-52
 activity#com.onlinepatch.SmartShare.activity.WebShareActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:151:9-153:63
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:150:9-153:64
 	android:label
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:152:13-38
 	android:theme
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:153:13-61
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:151:19-86
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:151:13-54
 activity#com.onlinepatch.SmartShare.activity.HistoryActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:154:9-156:63
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:154:9-157:64
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:155:13-29
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:156:13-29
 	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:156:13-61
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:157:13-61
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:154:19-85
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:155:13-53
 activity#com.onlinepatch.SmartShare.activity.InviteActivity
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:157:9-159:63
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:158:9-161:64
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:158:13-29
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:160:13-29
 	android:theme
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:159:13-61
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:161:13-61
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:157:19-84
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:159:13-52
 receiver#com.onlinepatch.SmartShare.receiver.NetworkStatusReceiver
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:171:9-180:20
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:173:9-182:20
 	android:process
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:173:13-40
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:175:13-40
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:172:13-85
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:174:13-59
 intent-filter#action:name:android.net.wifi.STATE_CHANGE+action:name:android.net.wifi.WIFI_AP_STATE_CHANGED+action:name:android.net.wifi.WIFI_STATE_CHANGED+action:name:android.net.wifi.p2p.CONNECTION_STATE_CHANGE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:174:13-179:29
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:176:13-181:29
 action#android.net.wifi.WIFI_STATE_CHANGED
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:175:17-78
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:177:17-78
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:175:25-75
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:177:25-75
 action#android.net.wifi.WIFI_AP_STATE_CHANGED
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:176:17-81
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:178:17-81
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:176:25-78
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:178:25-78
 action#android.net.wifi.STATE_CHANGE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:177:17-72
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:179:17-72
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:177:25-69
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:179:25-69
 action#android.net.wifi.p2p.CONNECTION_STATE_CHANGE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:178:17-87
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:180:17-87
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:178:25-84
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:180:25-84
 receiver#com.onlinepatch.SmartShare.receiver.DialogEventReceiver
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:181:9-183:43
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:183:9-185:43
 	android:process
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:183:13-40
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:185:13-40
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:182:13-83
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:184:13-57
 service#com.onlinepatch.SmartShare.service.CommunicationService
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:185:9-189:43
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:187:9-191:43
 	android:process
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:189:13-40
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:191:13-40
 	android:enabled
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:187:13-35
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:189:13-35
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:188:13-62
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:190:13-62
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:186:13-83
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:188:13-57
 service#com.onlinepatch.SmartShare.service.DeviceChooserService
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:191:9-198:19
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:192:9-199:19
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:193:13-62
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:194:13-62
 	android:permission
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:194:13-80
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:195:13-80
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:192:13-83
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:193:13-57
 intent-filter#action:name:android.service.chooser.ChooserTargetService
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:195:13-197:29
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:196:13-198:29
 action#android.service.chooser.ChooserTargetService
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:196:17-87
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:197:17-87
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:196:25-84
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:197:25-84
 service#com.onlinepatch.SmartShare.service.DeviceScannerService
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:199:9-206:19
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:200:9-207:19
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:199:18-88
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:200:18-62
 intent-filter#action:name:com.onlinepatch.SmartShare.intent.action.ADD_IP+action:name:com.onlinepatch.SmartShare.intent.action.SCAN_DEVICES+category:name:android.intent.category.DEFAULT
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:200:13-205:29
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:201:13-206:29
 action#com.onlinepatch.SmartShare.intent.action.SCAN_DEVICES
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:201:17-96
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:202:17-96
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:201:25-93
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:202:25-93
 action#com.onlinepatch.SmartShare.intent.action.ADD_IP
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:202:17-90
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:203:17-90
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:202:25-87
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:203:25-87
 service#com.onlinepatch.SmartShare.service.WorkerService
 ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:208:9-210:58
 	android:label
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:210:13-55
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:209:13-76
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:209:13-50
 service#com.onlinepatch.SmartShare.service.CommunicationToggleTile
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:212:9-221:19
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:211:9-220:19
 	android:process
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:217:13-40
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:216:13-40
 	android:label
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:215:13-52
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:214:13-52
 	android:permission
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:216:13-77
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:215:13-77
 	android:icon
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:214:13-47
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:213:13-47
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:213:13-86
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:212:13-60
 intent-filter#action:name:android.service.quicksettings.action.QS_TILE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:218:13-220:29
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:217:13-219:29
 action#android.service.quicksettings.action.QS_TILE
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:219:17-87
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:218:17-87
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:219:25-84
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:218:25-84
 uses-sdk
 INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
@@ -572,6 +606,8 @@ MERGED from [com.genonbeta.android:framework:1.0.2.8] C:\Users\surya\.gradle\cac
 MERGED from [com.genonbeta.android:framework:1.0.2.8] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\4c5de3f72b4ab29f95571cadcd35d530\jetified-framework-1.0.2.8\AndroidManifest.xml:7:5-9:41
 MERGED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ad4a92041a84edbda72737cb7fd43c76\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ad4a92041a84edbda72737cb7fd43c76\navigation-ui-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0807611a2c3e818c339f709001efa3c1\material-1.3.0-alpha01\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0807611a2c3e818c339f709001efa3c1\material-1.3.0-alpha01\AndroidManifest.xml:20:5-44
 MERGED from [com.afollestad.material-dialogs:core:0.9.6.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b8b1528e4ffe722bf9cea3f533a90c8e\jetified-core-0.9.6.0\AndroidManifest.xml:8:5-11:75
@@ -596,6 +632,8 @@ MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\surya\.gradle\cach
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\c9eca163b291abb9bf83cadc0574d7b3\jetified-glide-4.11.0\AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-ads:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96b40f7051cc875431f5cb1d2919a8cc\jetified-play-services-ads-19.3.0\AndroidManifest.xml:21:5-23:52
 MERGED from [com.google.android.gms:play-services-ads:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\96b40f7051cc875431f5cb1d2919a8cc\jetified-play-services-ads-19.3.0\AndroidManifest.xml:21:5-23:52
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0e1471781abb507de6f73bf6c0b40e45\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0e1471781abb507de6f73bf6c0b40e45\navigation-fragment-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\684eb4796be0563db6581302b55b0b8e\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\684eb4796be0563db6581302b55b0b8e\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.browser:browser:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\0b49bc934b475fbb8758c3106a68dc8d\browser-1.0.0\AndroidManifest.xml:20:5-44
@@ -608,8 +646,6 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\surya\.gr
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\42efa3a714625c92b3430eba14844546\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a944ef0e75e84f3d134782295423a8c8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a944ef0e75e84f3d134782295423a8c8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\6c2979cc4f67217f3821790394ed7db6\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\6c2979cc4f67217f3821790394ed7db6\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-gass:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bcaa71b51b73d6ff84cd26d99328de9e\jetified-play-services-gass-19.3.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-gass:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\bcaa71b51b73d6ff84cd26d99328de9e\jetified-play-services-gass-19.3.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b824e301c11021faf075a18d62d07e20\jetified-play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
@@ -646,26 +682,32 @@ MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\surya\.gradle\caches\tra
 MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\72400daa16d7be69cc5e09f5d35ead97\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b3d20a1e5d305c56c0cfa615f8699d04\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\b3d20a1e5d305c56c0cfa615f8699d04\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\90b425acd1a4f06420de915231b93085\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\90b425acd1a4f06420de915231b93085\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\94a155561ee4ef2c6c2dbcd8689615e1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\94a155561ee4ef2c6c2dbcd8689615e1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ffc1f949b2ebdb2bbaf87d384e49fe47\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\ffc1f949b2ebdb2bbaf87d384e49fe47\customview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\581a7bd8f75204ab7317c68d586f399a\transition-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.transition:transition:1.2.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\581a7bd8f75204ab7317c68d586f399a\transition-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91dd17cd130409cfce21610b6b8acf87\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91dd17cd130409cfce21610b6b8acf87\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\955a374cbfd64ab3f180281e7f6b2f0a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\955a374cbfd64ab3f180281e7f6b2f0a\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\f752e0e8c250ce9bb1c1cf63975f9e06\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\f752e0e8c250ce9bb1c1cf63975f9e06\drawerlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\90b425acd1a4f06420de915231b93085\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\90b425acd1a4f06420de915231b93085\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\94a155561ee4ef2c6c2dbcd8689615e1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\94a155561ee4ef2c6c2dbcd8689615e1\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5630d55d36fc36f852baa9bf4924bb74\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5630d55d36fc36f852baa9bf4924bb74\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\db6eaa44b3b3bc8ae0a09943df8b9684\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\db6eaa44b3b3bc8ae0a09943df8b9684\transition-1.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\1cd5d99b152227edb2b9f93ca446cf39\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\1cd5d99b152227edb2b9f93ca446cf39\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5773790c7c01eca78de344795ae6dd11\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5773790c7c01eca78de344795ae6dd11\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\451b41364ba0d3f745c8b1abd60ab12f\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\451b41364ba0d3f745c8b1abd60ab12f\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5242ad0d6194578a37d0be1a8e816898\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\5242ad0d6194578a37d0be1a8e816898\navigation-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\52f09c80c71aac1c58629e14e0f96bcb\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.1.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\52f09c80c71aac1c58629e14e0f96bcb\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\40e0996ca5bf61ab489acbab7d9a22f5\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\40e0996ca5bf61ab489acbab7d9a22f5\navigation-common-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\abb81fc13f51c3a390e514a0f970d9a3\core-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\abb81fc13f51c3a390e514a0f970d9a3\core-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\e1082e42a2b70fbb8bdcdd2bdd886553\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
@@ -715,11 +757,11 @@ INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
 		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:166:13-168:58
+ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:168:13-170:58
 	android:resource
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:168:17-55
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:170:17-55
 	android:name
-		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:167:17-67
+		ADDED from E:\Android\SmartShare\app\src\main\AndroidManifest.xml:169:17-67
 uses-permission#android.permission.CAMERA
 ADDED from [com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:11:5-65
 	android:name

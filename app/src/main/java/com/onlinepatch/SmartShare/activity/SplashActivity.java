@@ -24,7 +24,7 @@ public class SplashActivity extends Activity
     }
 
     private void gotoMainActivity(){
-        startActivity(new Intent(this, MainActivity.class));
+        startActivity(new Intent(this, BlueMainActivity.class));
         finish();
     }
 

@@ -133,14 +133,14 @@
 
             <fragment
                 android:id="@+id/activitiy_home_fragment"
-                android:name="com.onlinepatch.SmartShare.fragment.HomeFragment"
+                android:name="com.onlinepatch.SmartShare.fragment.HomeOldFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:layout="@layout/fragment_home" />
+                tools:layout="@layout/fragment_home_old" />
 
         </RelativeLayout>
 
-        <com.google.android.gms.ads.AdView
+        <!--<com.google.android.gms.ads.AdView
             android:id="@+id/admob_adview"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
@@ -150,7 +150,7 @@
             app:adSize="BANNER"
             app:adUnitId="@string/banner_ad_unit">
 
-        </com.google.android.gms.ads.AdView>
+        </com.google.android.gms.ads.AdView>-->
 
 
         <LinearLayout
@@ -199,7 +199,7 @@
 
             </RelativeLayout>
 
-            <RelativeLayout
+            <!--<RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="50">
@@ -237,7 +237,7 @@
                 </LinearLayout>
 
 
-            </RelativeLayout>
+            </RelativeLayout>-->
 
         </LinearLayout>
 

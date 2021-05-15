@@ -28,7 +28,7 @@
             app:tabMode="scrollable"
             app:tabTextColor="@color/colorDivider" />
 
-        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+        <!--<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
             android:id="@+id/admob_adview"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
             ads:adSize="BANNER"
             ads:adUnitId="@string/banner_ad_unit">
 
-        </com.google.android.gms.ads.AdView>
+        </com.google.android.gms.ads.AdView>-->
     </com.google.android.material.appbar.AppBarLayout>
 
     <RelativeLayout

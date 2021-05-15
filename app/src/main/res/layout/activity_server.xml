@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".activity.ServerActivity">
+
+    <TextView
+        android:id="@+id/tvIP"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:text="IP:"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/start_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:onClick="onClick"
+        android:text="Start Server" />
+
+
+    <ScrollView
+        android:layout_width="375dp"
+        android:layout_height="449dp"
+        android:layout_above="@+id/send_data"
+        android:layout_below="@+id/tvIP"
+        android:layout_marginBottom="64dp">
+
+        <LinearLayout
+            android:id="@+id/msgList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/edMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/send_data"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="5dp"
+        android:hint="Message from Server "
+        android:inputType="textCapSentences"
+        android:tooltipText="Type a message"/>
+
+    <Button
+        android:id="@+id/send_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="onClick"
+        android:text="Send Message to Client"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

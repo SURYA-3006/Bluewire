@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home">
+        </item>
+        <item android:id="@+id/nav_sharefiles"
+            android:icon="@drawable/ic_baseline_sharefiles_24"
+            android:title="Share Files">
+        </item>
+        <item android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_baseline_chat_24"
+            android:title="Chat">
+        </item>
+        <item android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="Exit">
+        </item>
+        </group>
+    <item android:title="Select Option">
+        <menu>
+            <item
+                android:id="@+id/share1"
+                android:icon="@drawable/ic_share"
+                android:title="Share App" />
+
+            <item
+                android:id="@+id/about_me"
+                android:icon="@drawable/ic_about"
+                android:title="About Us" />
+            <item
+                android:id="@+id/rate_us1"
+                android:icon="@drawable/ic_rateus"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+
+</menu>

@@ -20,8 +20,8 @@ import com.onlinepatch.SmartShare.view.SharingActionModeCallback;
 import com.onlinepatch.SmartShare.R;
 import com.onlinepatch.SmartShare.adapter.SmartFragmentPagerAdapter;
 import com.genonbeta.android.framework.widget.PowerfulActionMode;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+//import com.google.android.gms.ads.AdRequest;
+//import com.google.android.gms.ads.AdView;
 import com.google.android.material.tabs.TabLayout;
 
 public class ContentSharingActivity extends Activity
@@ -46,10 +46,10 @@ public class ContentSharingActivity extends Activity
             getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_close_white_24dp);
         }
 
-        AdView mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
+        /*AdView mAdMobAdView = (AdView) findViewById(R.id.admob_adview);
         AdRequest adRequest = new AdRequest.Builder()
                 .build();
-        mAdMobAdView.loadAd(adRequest);
+        mAdMobAdView.loadAd(adRequest);*/
 
         mMode = findViewById(R.id.activity_content_sharing_action_mode);
         final TabLayout tabLayout = findViewById(R.id.activity_content_sharing_tab_layout);
