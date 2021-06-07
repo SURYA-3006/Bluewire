@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.genonbeta.android:gdatabase:1.0.2.6.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ace339cd448ac56e6e366915bab7b99/jetified-gdatabase-1.0.2.6.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ace339cd448ac56e6e366915bab7b99/jetified-gdatabase-1.0.2.6.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ace339cd448ac56e6e366915bab7b99/jetified-gdatabase-1.0.2.6.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/193b7b535c4139ab9fed046967d1b61a/jetified-gdatabase-1.0.2.6.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/193b7b535c4139ab9fed046967d1b61a/jetified-gdatabase-1.0.2.6.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/193b7b535c4139ab9fed046967d1b61a/jetified-gdatabase-1.0.2.6.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.genonbeta.android/gdatabase/1.0.2.6.1/6659f5894c0ecc3a61d92e1b24f7493701dcbb9c/gdatabase-1.0.2.6.1-javadoc.jar!/" />

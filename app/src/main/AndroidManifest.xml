@@ -31,19 +31,19 @@
         android:theme="@style/Theme.TBShare"
         tools:ignore="GoogleAppIndexingWarning"
         tools:replace="android:appComponentFactory">
-        <activity android:name=".activity.ChatNavigationActivity"
+        <activity android:name=".activity.ChatActivity"
             android:label="Chat"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             </activity>
         <activity
-            android:name=".activity.HomeNavigationActivity"
+            android:name=".activity.HomeActivity"
             android:label="Home"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         </activity>
         <activity android:name=".activity.ClientActivity" />
         <activity android:name=".activity.ServerActivity" />
         <activity
-            android:name=".activity.BlueMainActivity"
+            android:name=".activity.SplashActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
             <intent-filter>
@@ -62,12 +62,12 @@
             android:value="@string/admob_app_id" />
 
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.ShareActivity"
             android:label="Share Files"
             android:launchMode="singleTask"
             android:theme="@style/Theme.TBShare.NoActionBar" />
         <activity
-            android:name=".activity.ShareActivity"
+            android:name=".activity.Share1Activity"
             android:label="@string/app_name"
             android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar">
             <intent-filter>
@@ -144,7 +144,7 @@
             android:label="@string/text_scanQrCode"
             android:theme="@style/Theme.TBShare.BarcodeScannerActivity" />
         <activity
-            android:name=".activity.SplashActivity"
+            android:name=".activity.TempActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.TBShare.NoActionBar" />
         <activity

@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 
-import com.onlinepatch.SmartShare.activity.MainActivity;
+import com.onlinepatch.SmartShare.activity.ShareActivity;
 import com.onlinepatch.SmartShare.activity.Activity;
 import com.onlinepatch.SmartShare.R;
 
@@ -50,7 +50,7 @@ public class RationalePermissionRequest extends AlertDialog.Builder
             @Override
             public void onClick(DialogInterface dialogInterface, int i)
             {
-                ActivityCompat.requestPermissions(activity, new String[]{mPermissionQueue.permission}, MainActivity.REQUEST_PERMISSION_ALL);
+                ActivityCompat.requestPermissions(activity, new String[]{mPermissionQueue.permission}, ShareActivity.REQUEST_PERMISSION_ALL);
             }
         });
 

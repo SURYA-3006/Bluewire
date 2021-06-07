@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Android\\SmartShare\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
+            "outputFile": "E:\\Bluewire\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-id\\values-id.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\surya\\.gradle\\caches\\transforms-2\\files-2.1\\91e61fa3c90ad3e9121e300e50ec278e\\jetified-zxing-3.6.3\\res\\values-id\\values-id.xml",
+                    "source": "C:\\Users\\surya\\.gradle\\caches\\transforms-2\\files-2.1\\62e97c8eaba4fefe5e650cc16efa2a40\\jetified-zxing-3.6.3\\res\\values-id\\values-id.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

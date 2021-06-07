@@ -22,7 +22,6 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import com.onlinepatch.SmartShare.R;
 import com.onlinepatch.SmartShare.fragment.HistoryFragment;
 import com.genonbeta.android.framework.widget.PowerfulActionMode;
-import com.google.android.gms.ads.AdRequest;
 //import com.google.android.gms.ads.AdView;
 import com.google.android.material.navigation.NavigationView;
 import com.google.zxing.BarcodeFormat;
@@ -104,7 +103,7 @@ public class InviteActivity extends Activity
         int id = item.getItemId();
 
         if (id == android.R.id.home) {
-            Intent intent = new Intent(InviteActivity.this, MainActivity.class);
+            Intent intent = new Intent(InviteActivity.this, ShareActivity.class);
             startActivity(intent);
         }
         else

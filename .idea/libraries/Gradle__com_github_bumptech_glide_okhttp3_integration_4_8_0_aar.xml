@@ -8,6 +8,13 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fde82a7a355878c1b62a11b4dc594887/jetified-okhttp3-integration-4.8.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fde82a7a355878c1b62a11b4dc594887/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fde82a7a355878c1b62a11b4dc594887/jetified-okhttp3-integration-4.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/98925c44bd8e08632697980b680815a1/jetified-okhttp3-integration-4.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e719b714304c42736e5f2bccaf4f4a4b/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e719b714304c42736e5f2bccaf4f4a4b/jetified-okhttp3-integration-4.8.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e719b714304c42736e5f2bccaf4f4a4b/jetified-okhttp3-integration-4.8.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc7d5cc543a435fa6f029870295d43b8/jetified-okhttp3-integration-4.8.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc7d5cc543a435fa6f029870295d43b8/jetified-okhttp3-integration-4.8.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc7d5cc543a435fa6f029870295d43b8/jetified-okhttp3-integration-4.8.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/okhttp3-integration/4.8.0/60e3940926c8711251f55855c53320ab03d49924/okhttp3-integration-4.8.0-javadoc.jar!/" />

@@ -74,7 +74,7 @@ public class HistoryActivity extends Activity
         int id = item.getItemId();
 
         if (id == android.R.id.home) {
-            Intent intent = new Intent(HistoryActivity.this, MainActivity.class);
+            Intent intent = new Intent(HistoryActivity.this, ShareActivity.class);
             startActivity(intent);
         }
         else

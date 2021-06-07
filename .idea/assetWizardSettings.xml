@@ -79,7 +79,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="E:\Android\ic_launcher.png" />
+                                                <entry key="imagePath" value="E:\bluewire.png" />
+                                                <entry key="scalingPercent" value="42" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -107,6 +108,14 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="3da4dc" />
+                                      <entry key="backgroundLayerName" value="ic_launcher_logoback" />
+                                      <entry key="foregroundLayerName" value="ic_launcher_logofore" />
                                     </map>
                                   </option>
                                 </PersistentState>

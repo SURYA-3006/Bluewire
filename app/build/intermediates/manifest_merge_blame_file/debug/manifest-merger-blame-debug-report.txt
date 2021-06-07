@@ -6,781 +6,781 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+8-->E:\Bluewire\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml
+9-->E:\Bluewire\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-11-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:6:5-76
-11-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:6:22-73
+11-->E:\Bluewire\app\src\main\AndroidManifest.xml:6:5-76
+11-->E:\Bluewire\app\src\main\AndroidManifest.xml:6:22-73
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:7:5-79
-12-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:7:22-76
+12-->E:\Bluewire\app\src\main\AndroidManifest.xml:7:5-79
+12-->E:\Bluewire\app\src\main\AndroidManifest.xml:7:22-76
 13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-13-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:8:5-76
-13-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:8:22-73
+13-->E:\Bluewire\app\src\main\AndroidManifest.xml:8:5-76
+13-->E:\Bluewire\app\src\main\AndroidManifest.xml:8:22-73
 14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-14-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:9:5-79
-14-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:9:22-76
+14-->E:\Bluewire\app\src\main\AndroidManifest.xml:9:5-79
+14-->E:\Bluewire\app\src\main\AndroidManifest.xml:9:22-76
 15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-15-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:10:5-77
-15-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:10:22-74
+15-->E:\Bluewire\app\src\main\AndroidManifest.xml:10:5-77
+15-->E:\Bluewire\app\src\main\AndroidManifest.xml:10:22-74
 16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-16-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:11:5-75
-16-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:11:22-72
+16-->E:\Bluewire\app\src\main\AndroidManifest.xml:11:5-75
+16-->E:\Bluewire\app\src\main\AndroidManifest.xml:11:22-72
 17    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-17-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:12:5-83
-17-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:12:22-80
+17-->E:\Bluewire\app\src\main\AndroidManifest.xml:12:5-83
+17-->E:\Bluewire\app\src\main\AndroidManifest.xml:12:22-80
 18    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-18-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:13:5-78
-18-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:13:22-75
+18-->E:\Bluewire\app\src\main\AndroidManifest.xml:13:5-78
+18-->E:\Bluewire\app\src\main\AndroidManifest.xml:13:22-75
 19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-19-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:14:5-81
-19-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:14:22-78
+19-->E:\Bluewire\app\src\main\AndroidManifest.xml:14:5-81
+19-->E:\Bluewire\app\src\main\AndroidManifest.xml:14:22-78
 20    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
-20-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:15:5-17:47
-20-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:16:9-57
+20-->E:\Bluewire\app\src\main\AndroidManifest.xml:15:5-17:47
+20-->E:\Bluewire\app\src\main\AndroidManifest.xml:16:9-57
 21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-21-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:18:5-81
-21-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:18:22-78
+21-->E:\Bluewire\app\src\main\AndroidManifest.xml:18:5-81
+21-->E:\Bluewire\app\src\main\AndroidManifest.xml:18:22-78
 22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-22-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:19:5-79
-22-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:19:22-76
+22-->E:\Bluewire\app\src\main\AndroidManifest.xml:19:5-79
+22-->E:\Bluewire\app\src\main\AndroidManifest.xml:19:22-76
 23    <uses-permission android:name="android.permission.VIBRATE" />
-23-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:20:5-66
-23-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:20:22-63
+23-->E:\Bluewire\app\src\main\AndroidManifest.xml:20:5-66
+23-->E:\Bluewire\app\src\main\AndroidManifest.xml:20:22-63
 24    <uses-permission android:name="android.permission.WAKE_LOCK" />
-24-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:21:5-68
-24-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:21:22-65
+24-->E:\Bluewire\app\src\main\AndroidManifest.xml:21:5-68
+24-->E:\Bluewire\app\src\main\AndroidManifest.xml:21:22-65
 25    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-25-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:11:5-65
-25-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:11:22-62
+25-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:11:5-65
+25-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:11:22-62
 26    <uses-feature
-26-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:14:5-16:36
+26-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:14:5-16:36
 27        android:name="android.hardware.camera"
-27-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:15:9-47
+27-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:15:9-47
 28        android:required="false" />
-28-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:16:9-33
+28-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:16:9-33
 29    <uses-feature
-29-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:17:5-19:36
+29-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:17:5-19:36
 30        android:name="android.hardware.camera.front"
-30-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:18:9-53
+30-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:18:9-53
 31        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-31-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:19:9-33
+31-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:19:9-33
 32    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
 33    <uses-feature
-33-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:22:5-24:36
+33-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:22:5-24:36
 34        android:name="android.hardware.camera.autofocus"
-34-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:23:9-57
+34-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:23:9-57
 35        android:required="false" />
-35-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:24:9-33
+35-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:24:9-33
 36    <uses-feature
-36-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:25:5-27:36
+36-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:25:5-27:36
 37        android:name="android.hardware.camera.flash"
-37-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:26:9-53
+37-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:26:9-53
 38        android:required="false" />
-38-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:27:9-33
+38-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:27:9-33
 39    <uses-feature
-39-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:28:5-30:36
+39-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:28:5-30:36
 40        android:name="android.hardware.screen.landscape"
-40-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:29:9-57
+40-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:29:9-57
 41        android:required="false" />
-41-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:30:9-33
+41-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:30:9-33
 42    <uses-feature
-42-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:31:5-33:36
+42-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:31:5-33:36
 43        android:name="android.hardware.wifi"
-43-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:32:9-45
+43-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:32:9-45
 44        android:required="false" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
-44-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:33:9-33
+44-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:33:9-33
 45    <permission
-45-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:7:5-9:47
+45-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:7:5-9:47
 46        android:name="com.onlinepatch.SmartShare.permission.C2D_MESSAGE"
-46-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:8:9-63
+46-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:8:9-63
 47        android:protectionLevel="signature" />
-47-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:9:9-44
+47-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:9:9-44
 48
 49    <uses-permission android:name="com.onlinepatch.SmartShare.permission.C2D_MESSAGE" /> <!-- OneSignal SDK has runtime checks Android version. -->
-49-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:5-79
-49-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:22-76
+49-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:5-79
+49-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:11:22-76
 50    <!-- <uses-sdk tools:overrideLibrary="androidx.browser"/> -->
 51    <!-- INTERNET and c2dm RECEIVE are basic requirements for push messages through Google's GCM. -->
 52    <uses-permission android:name="android.permission.INTERNET" />
-52-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:16:5-67
-52-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:16:22-64
+52-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:16:5-67
+52-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:16:22-64
 53    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-53-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:17:5-82
-53-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:17:22-79
+53-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:17:5-82
+53-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:17:22-79
 54    <!--
 55 Use to restore notifications the user hasn't interacted with.
 56         They could be missed notifications if the user reboots their device if this isn't in place.
 57    -->
 58    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
-58-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:29:5-81
-58-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:29:22-78
+58-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:29:5-81
+58-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:29:22-78
 59    <!-- Samsung -->
 60    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-60-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:31:5-86
-60-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:31:22-83
+60-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:31:5-86
+60-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:31:22-83
 61    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
-61-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:32:5-87
-61-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:32:22-84
+61-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:32:5-87
+61-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:32:22-84
 62    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-62-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:33:5-81
-62-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:33:22-78
+62-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:33:5-81
+62-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:33:22-78
 63    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
-63-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:34:5-83
-63-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:34:22-80
+63-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:34:5-83
+63-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:34:22-80
 64    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-64-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:35:5-88
-64-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:35:22-85
+64-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:35:5-88
+64-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:35:22-85
 65    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
-65-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:36:5-92
-65-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:36:22-89
+65-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:36:5-92
+65-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:36:22-89
 66    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
-66-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:37:5-84
-66-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:37:22-81
+66-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:37:5-84
+66-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:37:22-81
 67    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
-67-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:38:5-83
-67-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:38:22-80
+67-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:38:5-83
+67-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:38:22-80
 68    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-68-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:39:5-91
-68-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:39:22-88
+68-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:39:5-91
+68-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:39:22-88
 69    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-69-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:40:5-92
-69-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:40:22-89
+69-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:40:5-92
+69-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:40:22-89
 70    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
-70-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:41:5-93
-70-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:41:22-90
+70-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:41:5-93
+70-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:41:22-90
 71    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
-71-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:42:5-73
-71-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:42:22-70
+71-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:42:5-73
+71-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:42:22-70
 72    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-72-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:43:5-82
-72-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:43:22-79
+72-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:43:5-82
+72-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:43:22-79
 73    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
-73-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:44:5-83
-73-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:44:22-80
+73-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:44:5-83
+73-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:44:22-80
 74    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-74-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:45:5-88
-74-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:45:22-85
+74-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:45:5-88
+74-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:45:22-85
 75    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-75-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:46:5-89
-75-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:46:22-86
+75-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:46:5-89
+75-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:46:22-86
 76
 77    <application
-77-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:23:5-221:19
+77-->E:\Bluewire\app\src\main\AndroidManifest.xml:23:5-221:19
 78        android:name="com.onlinepatch.SmartShare.base.App"
-78-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:24:9-33
+78-->E:\Bluewire\app\src\main\AndroidManifest.xml:24:9-33
 79        android:allowBackup="true"
-79-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:25:9-35
+79-->E:\Bluewire\app\src\main\AndroidManifest.xml:25:9-35
 80        android:appComponentFactory="@string/app_name"
-80-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:26:9-55
+80-->E:\Bluewire\app\src\main\AndroidManifest.xml:26:9-55
 81        android:debuggable="true"
 82        android:fullBackupContent="true"
-82-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:27:9-41
+82-->E:\Bluewire\app\src\main\AndroidManifest.xml:27:9-41
 83        android:icon="@mipmap/ic_launcher"
-83-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:28:9-43
+83-->E:\Bluewire\app\src\main\AndroidManifest.xml:28:9-43
 84        android:label="@string/app_name"
-84-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:29:9-41
+84-->E:\Bluewire\app\src\main\AndroidManifest.xml:29:9-41
 85        android:supportsRtl="true"
-85-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:30:9-35
+85-->E:\Bluewire\app\src\main\AndroidManifest.xml:30:9-35
 86        android:testOnly="true"
 87        android:theme="@style/Theme.TBShare" >
-87-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:31:9-45
+87-->E:\Bluewire\app\src\main\AndroidManifest.xml:31:9-45
 88        <activity
-88-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:34:9-37:24
-89            android:name="com.onlinepatch.SmartShare.activity.ChatNavigationActivity"
-89-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:34:19-66
+88-->E:\Bluewire\app\src\main\AndroidManifest.xml:34:9-37:24
+89            android:name="com.onlinepatch.SmartShare.activity.ChatActivity"
+89-->E:\Bluewire\app\src\main\AndroidManifest.xml:34:19-56
 90            android:label="Chat"
-90-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:35:13-33
+90-->E:\Bluewire\app\src\main\AndroidManifest.xml:35:13-33
 91            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-91-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:36:13-69
+91-->E:\Bluewire\app\src\main\AndroidManifest.xml:36:13-69
 92        </activity>
 93        <activity
-93-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:38:9-42:20
-94            android:name="com.onlinepatch.SmartShare.activity.HomeNavigationActivity"
-94-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:39:13-60
+93-->E:\Bluewire\app\src\main\AndroidManifest.xml:38:9-42:20
+94            android:name="com.onlinepatch.SmartShare.activity.HomeActivity"
+94-->E:\Bluewire\app\src\main\AndroidManifest.xml:39:13-50
 95            android:label="Home"
-95-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:40:13-33
+95-->E:\Bluewire\app\src\main\AndroidManifest.xml:40:13-33
 96            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-96-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:41:13-69
+96-->E:\Bluewire\app\src\main\AndroidManifest.xml:41:13-69
 97        </activity>
 98        <activity android:name="com.onlinepatch.SmartShare.activity.ClientActivity" />
-98-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:43:9-61
-98-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:43:19-58
+98-->E:\Bluewire\app\src\main\AndroidManifest.xml:43:9-61
+98-->E:\Bluewire\app\src\main\AndroidManifest.xml:43:19-58
 99        <activity android:name="com.onlinepatch.SmartShare.activity.ServerActivity" />
-99-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:44:9-61
-99-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:44:19-58
+99-->E:\Bluewire\app\src\main\AndroidManifest.xml:44:9-61
+99-->E:\Bluewire\app\src\main\AndroidManifest.xml:44:19-58
 100        <activity
-100-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:45:9-55:20
-101            android:name="com.onlinepatch.SmartShare.activity.BlueMainActivity"
-101-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:46:13-54
+100-->E:\Bluewire\app\src\main\AndroidManifest.xml:45:9-55:20
+101            android:name="com.onlinepatch.SmartShare.activity.SplashActivity"
+101-->E:\Bluewire\app\src\main\AndroidManifest.xml:46:13-52
 102            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-102-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:47:13-69
+102-->E:\Bluewire\app\src\main\AndroidManifest.xml:47:13-69
 103            <intent-filter>
-103-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:49:13-53:29
+103-->E:\Bluewire\app\src\main\AndroidManifest.xml:49:13-53:29
 104                <action android:name="android.intent.action.MAIN" />
-104-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:50:17-69
-104-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:50:25-66
+104-->E:\Bluewire\app\src\main\AndroidManifest.xml:50:17-69
+104-->E:\Bluewire\app\src\main\AndroidManifest.xml:50:25-66
 105
 106                <category android:name="android.intent.category.LAUNCHER" />
-106-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:52:17-77
-106-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:52:27-74
+106-->E:\Bluewire\app\src\main\AndroidManifest.xml:52:17-77
+106-->E:\Bluewire\app\src\main\AndroidManifest.xml:52:27-74
 107            </intent-filter>
 108        </activity>
 109
 110        <meta-data
-110-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:57:9-59:69
+110-->E:\Bluewire\app\src\main\AndroidManifest.xml:57:9-59:69
 111            android:name="com.google.android.gms.version"
-111-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:58:13-58
+111-->E:\Bluewire\app\src\main\AndroidManifest.xml:58:13-58
 112            android:value="@integer/google_play_services_version" />
-112-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:59:13-66
+112-->E:\Bluewire\app\src\main\AndroidManifest.xml:59:13-66
 113        <meta-data
-113-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:60:9-62:52
+113-->E:\Bluewire\app\src\main\AndroidManifest.xml:60:9-62:52
 114            android:name="com.google.android.gms.ads.APPLICATION_ID"
-114-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:61:13-69
+114-->E:\Bluewire\app\src\main\AndroidManifest.xml:61:13-69
 115            android:value="@string/admob_app_id" />
-115-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:62:13-49
+115-->E:\Bluewire\app\src\main\AndroidManifest.xml:62:13-49
 116
 117        <activity
-117-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:64:9-68:64
-118            android:name="com.onlinepatch.SmartShare.activity.MainActivity"
-118-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:65:13-50
+117-->E:\Bluewire\app\src\main\AndroidManifest.xml:64:9-68:64
+118            android:name="com.onlinepatch.SmartShare.activity.ShareActivity"
+118-->E:\Bluewire\app\src\main\AndroidManifest.xml:65:13-51
 119            android:label="Share Files"
-119-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:66:13-40
+119-->E:\Bluewire\app\src\main\AndroidManifest.xml:66:13-40
 120            android:launchMode="singleTask"
-120-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:67:13-44
+120-->E:\Bluewire\app\src\main\AndroidManifest.xml:67:13-44
 121            android:theme="@style/Theme.TBShare.NoActionBar" />
-121-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:68:13-61
+121-->E:\Bluewire\app\src\main\AndroidManifest.xml:68:13-61
 122        <activity
-122-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:69:9-84:20
-123            android:name="com.onlinepatch.SmartShare.activity.ShareActivity"
-123-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:70:13-51
+122-->E:\Bluewire\app\src\main\AndroidManifest.xml:69:9-84:20
+123            android:name="com.onlinepatch.SmartShare.activity.Share1Activity"
+123-->E:\Bluewire\app\src\main\AndroidManifest.xml:70:13-52
 124            android:label="@string/app_name"
-124-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:71:13-45
+124-->E:\Bluewire\app\src\main\AndroidManifest.xml:71:13-45
 125            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" >
-125-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:72:13-77
+125-->E:\Bluewire\app\src\main\AndroidManifest.xml:72:13-77
 126            <intent-filter>
-126-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:73:13-83:29
+126-->E:\Bluewire\app\src\main\AndroidManifest.xml:73:13-83:29
 127                <action android:name="com.onlinepatch.SmartShare.intent.action.TBShare_SEND_TEXT" />
-127-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:74:17-101
-127-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:74:25-98
+127-->E:\Bluewire\app\src\main\AndroidManifest.xml:74:17-101
+127-->E:\Bluewire\app\src\main\AndroidManifest.xml:74:25-98
 128                <action android:name="android.intent.action.SEND" />
-128-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:75:17-69
-128-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:75:25-66
+128-->E:\Bluewire\app\src\main\AndroidManifest.xml:75:17-69
+128-->E:\Bluewire\app\src\main\AndroidManifest.xml:75:25-66
 129                <action android:name="android.intent.action.SEND_MULTIPLE" />
-129-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:76:17-78
-129-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:76:25-75
+129-->E:\Bluewire\app\src\main\AndroidManifest.xml:76:17-78
+129-->E:\Bluewire\app\src\main\AndroidManifest.xml:76:25-75
 130                <action android:name="com.onlinepatch.SmartShare.intent.action.TBShare_SEND" />
-130-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:77:17-96
-130-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:77:25-93
+130-->E:\Bluewire\app\src\main\AndroidManifest.xml:77:17-96
+130-->E:\Bluewire\app\src\main\AndroidManifest.xml:77:25-93
 131                <action android:name="com.onlinepatch.SmartShare.intent.action.TBShare_SEND_MULTIPLE" />
-131-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:78:17-105
-131-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:78:25-102
+131-->E:\Bluewire\app\src\main\AndroidManifest.xml:78:17-105
+131-->E:\Bluewire\app\src\main\AndroidManifest.xml:78:25-102
 132
 133                <category android:name="android.intent.category.DEFAULT" />
-133-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:17-76
-133-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:27-73
+133-->E:\Bluewire\app\src\main\AndroidManifest.xml:80:17-76
+133-->E:\Bluewire\app\src\main\AndroidManifest.xml:80:27-73
 134
 135                <data android:mimeType="*/*" />
-135-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:17-48
-135-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:23-45
+135-->E:\Bluewire\app\src\main\AndroidManifest.xml:82:17-48
+135-->E:\Bluewire\app\src\main\AndroidManifest.xml:82:23-45
 136            </intent-filter>
 137        </activity>
 138        <activity
-138-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:85:9-88:80
+138-->E:\Bluewire\app\src\main\AndroidManifest.xml:85:9-88:80
 139            android:name="com.onlinepatch.SmartShare.activity.AddDevicesToTransferActivity"
-139-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:86:13-66
+139-->E:\Bluewire\app\src\main\AndroidManifest.xml:86:13-66
 140            android:label="@string/text_addDevicesToTransfer"
-140-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:87:13-62
+140-->E:\Bluewire\app\src\main\AndroidManifest.xml:87:13-62
 141            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
-141-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:88:13-77
+141-->E:\Bluewire\app\src\main\AndroidManifest.xml:88:13-77
 142        <activity
-142-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:89:9-92:80
+142-->E:\Bluewire\app\src\main\AndroidManifest.xml:89:9-92:80
 143            android:name="com.onlinepatch.SmartShare.activity.FileExplorerActivity"
-143-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:90:13-58
+143-->E:\Bluewire\app\src\main\AndroidManifest.xml:90:13-58
 144            android:label="@string/text_fileExplorer"
-144-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:91:13-54
+144-->E:\Bluewire\app\src\main\AndroidManifest.xml:91:13-54
 145            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
-145-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:92:13-77
+145-->E:\Bluewire\app\src\main\AndroidManifest.xml:92:13-77
 146        <activity
-146-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:93:9-96:80
+146-->E:\Bluewire\app\src\main\AndroidManifest.xml:93:9-96:80
 147            android:name="com.onlinepatch.SmartShare.activity.ConnectionManagerActivity"
-147-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:94:13-63
+147-->E:\Bluewire\app\src\main\AndroidManifest.xml:94:13-63
 148            android:label="@string/text_connectDevices"
-148-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:95:13-56
+148-->E:\Bluewire\app\src\main\AndroidManifest.xml:95:13-56
 149            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
-149-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:96:13-77
+149-->E:\Bluewire\app\src\main\AndroidManifest.xml:96:13-77
 150        <activity
-150-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:97:9-101:80
+150-->E:\Bluewire\app\src\main\AndroidManifest.xml:97:9-101:80
 151            android:name="com.onlinepatch.SmartShare.activity.ContentSharingActivity"
-151-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:98:13-60
+151-->E:\Bluewire\app\src\main\AndroidManifest.xml:98:13-60
 152            android:label="@string/text_send"
-152-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:99:13-46
+152-->E:\Bluewire\app\src\main\AndroidManifest.xml:99:13-46
 153            android:launchMode="singleTask"
-153-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:100:13-44
+153-->E:\Bluewire\app\src\main\AndroidManifest.xml:100:13-44
 154            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" />
-154-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:101:13-77
+154-->E:\Bluewire\app\src\main\AndroidManifest.xml:101:13-77
 155        <activity
-155-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:102:9-104:57
+155-->E:\Bluewire\app\src\main\AndroidManifest.xml:102:9-104:57
 156            android:name="com.onlinepatch.SmartShare.activity.FilePickerActivity"
-156-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:103:13-56
+156-->E:\Bluewire\app\src\main\AndroidManifest.xml:103:13-56
 157            android:label="@string/text_fileExplorer" />
-157-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:104:13-54
+157-->E:\Bluewire\app\src\main\AndroidManifest.xml:104:13-54
 158        <activity
-158-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:105:9-122:20
+158-->E:\Bluewire\app\src\main\AndroidManifest.xml:105:9-122:20
 159            android:name="com.onlinepatch.SmartShare.activity.ViewTransferActivity"
-159-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:106:13-58
+159-->E:\Bluewire\app\src\main\AndroidManifest.xml:106:13-58
 160            android:label="@string/text_transactionViewer"
-160-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:107:13-59
+160-->E:\Bluewire\app\src\main\AndroidManifest.xml:107:13-59
 161            android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" >
-161-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:108:13-77
+161-->E:\Bluewire\app\src\main\AndroidManifest.xml:108:13-77
 162            <intent-filter>
-162-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:109:13-121:29
+162-->E:\Bluewire\app\src\main\AndroidManifest.xml:109:13-121:29
 163                <action android:name="android.intent.action.VIEW" />
-163-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:110:17-69
-163-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:110:25-66
+163-->E:\Bluewire\app\src\main\AndroidManifest.xml:110:17-69
+163-->E:\Bluewire\app\src\main\AndroidManifest.xml:110:25-66
 164
 165                <category android:name="android.intent.category.DEFAULT" />
-165-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:17-76
-165-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:27-73
+165-->E:\Bluewire\app\src\main\AndroidManifest.xml:80:17-76
+165-->E:\Bluewire\app\src\main\AndroidManifest.xml:80:27-73
 166                <category android:name="android.intent.category.BROWSABLE" />
-166-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:113:17-78
-166-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:113:27-75
+166-->E:\Bluewire\app\src\main\AndroidManifest.xml:113:17-78
+166-->E:\Bluewire\app\src\main\AndroidManifest.xml:113:27-75
 167
 168                <data android:scheme="file" />
-168-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:17-48
-168-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:115:23-44
+168-->E:\Bluewire\app\src\main\AndroidManifest.xml:82:17-48
+168-->E:\Bluewire\app\src\main\AndroidManifest.xml:115:23-44
 169                <data android:scheme="content" />
-169-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:17-48
-169-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:115:23-44
+169-->E:\Bluewire\app\src\main\AndroidManifest.xml:82:17-48
+169-->E:\Bluewire\app\src\main\AndroidManifest.xml:115:23-44
 170                <data android:mimeType="*/*" />
-170-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:17-48
-170-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:23-45
+170-->E:\Bluewire\app\src\main\AndroidManifest.xml:82:17-48
+170-->E:\Bluewire\app\src\main\AndroidManifest.xml:82:23-45
 171                <data android:host="*" />
-171-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:17-48
-171-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:118:23-39
+171-->E:\Bluewire\app\src\main\AndroidManifest.xml:82:17-48
+171-->E:\Bluewire\app\src\main\AndroidManifest.xml:118:23-39
 172                <data android:pathPattern=".*\\.tshare" />
-172-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:17-48
-172-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:119:23-56
+172-->E:\Bluewire\app\src\main\AndroidManifest.xml:82:17-48
+172-->E:\Bluewire\app\src\main\AndroidManifest.xml:119:23-56
 173                <data android:pathPattern=".*\\..*\\.tshare" />
-173-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:82:17-48
-173-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:119:23-56
+173-->E:\Bluewire\app\src\main\AndroidManifest.xml:82:17-48
+173-->E:\Bluewire\app\src\main\AndroidManifest.xml:119:23-56
 174            </intent-filter>
 175        </activity>
 176        <activity
-176-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:123:9-126:64
+176-->E:\Bluewire\app\src\main\AndroidManifest.xml:123:9-126:64
 177            android:name="com.onlinepatch.SmartShare.activity.ManageDevicesActivity"
-177-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:124:13-59
+177-->E:\Bluewire\app\src\main\AndroidManifest.xml:124:13-59
 178            android:label="@string/text_manageDevices"
-178-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:125:13-55
+178-->E:\Bluewire\app\src\main\AndroidManifest.xml:125:13-55
 179            android:theme="@style/Theme.TBShare.NoActionBar" />
-179-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:126:13-61
+179-->E:\Bluewire\app\src\main\AndroidManifest.xml:126:13-61
 180        <activity
-180-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:127:9-129:51
+180-->E:\Bluewire\app\src\main\AndroidManifest.xml:127:9-129:51
 181            android:name="com.onlinepatch.SmartShare.activity.SearchActivity"
-181-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:128:13-52
+181-->E:\Bluewire\app\src\main\AndroidManifest.xml:128:13-52
 182            android:label="@string/butn_search" />
-182-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:129:13-48
+182-->E:\Bluewire\app\src\main\AndroidManifest.xml:129:13-48
 183        <activity
-183-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:130:9-132:55
+183-->E:\Bluewire\app\src\main\AndroidManifest.xml:130:9-132:55
 184            android:name="com.onlinepatch.SmartShare.activity.TextEditorActivity"
-184-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:131:13-56
+184-->E:\Bluewire\app\src\main\AndroidManifest.xml:131:13-56
 185            android:label="@string/text_textEditor" />
-185-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:132:13-52
+185-->E:\Bluewire\app\src\main\AndroidManifest.xml:132:13-52
 186        <activity
-186-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:133:9-141:20
+186-->E:\Bluewire\app\src\main\AndroidManifest.xml:133:9-141:20
 187            android:name="com.onlinepatch.SmartShare.activity.ChangeStoragePathActivity"
-187-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:134:13-63
+187-->E:\Bluewire\app\src\main\AndroidManifest.xml:134:13-63
 188            android:theme="@style/Base.Theme.AppCompat.Dialog" >
-188-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:135:13-63
+188-->E:\Bluewire\app\src\main\AndroidManifest.xml:135:13-63
 189            <intent-filter>
-189-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:136:13-140:29
+189-->E:\Bluewire\app\src\main\AndroidManifest.xml:136:13-140:29
 190                <action android:name="com.onlinepatch.SmartShare.intent.action.UPDATE_STORAGE_PATH" />
-190-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:137:17-103
-190-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:137:25-100
+190-->E:\Bluewire\app\src\main\AndroidManifest.xml:137:17-103
+190-->E:\Bluewire\app\src\main\AndroidManifest.xml:137:25-100
 191
 192                <category android:name="android.intent.category.DEFAULT" />
-192-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:17-76
-192-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:27-73
+192-->E:\Bluewire\app\src\main\AndroidManifest.xml:80:17-76
+192-->E:\Bluewire\app\src\main\AndroidManifest.xml:80:27-73
 193            </intent-filter>
 194        </activity>
 195        <activity
-195-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:142:9-145:75
+195-->E:\Bluewire\app\src\main\AndroidManifest.xml:142:9-145:75
 196            android:name="com.onlinepatch.SmartShare.activity.BarcodeScannerActivity"
-196-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:143:13-60
+196-->E:\Bluewire\app\src\main\AndroidManifest.xml:143:13-60
 197            android:label="@string/text_scanQrCode"
-197-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:144:13-52
+197-->E:\Bluewire\app\src\main\AndroidManifest.xml:144:13-52
 198            android:theme="@style/Theme.TBShare.BarcodeScannerActivity" />
-198-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:145:13-72
+198-->E:\Bluewire\app\src\main\AndroidManifest.xml:145:13-72
 199        <activity
-199-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:146:9-149:64
-200            android:name="com.onlinepatch.SmartShare.activity.SplashActivity"
-200-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:147:13-52
+199-->E:\Bluewire\app\src\main\AndroidManifest.xml:146:9-149:64
+200            android:name="com.onlinepatch.SmartShare.activity.TempActivity"
+200-->E:\Bluewire\app\src\main\AndroidManifest.xml:147:13-50
 201            android:label="@string/app_name"
-201-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:148:13-45
+201-->E:\Bluewire\app\src\main\AndroidManifest.xml:148:13-45
 202            android:theme="@style/Theme.TBShare.NoActionBar" />
-202-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:149:13-61
+202-->E:\Bluewire\app\src\main\AndroidManifest.xml:149:13-61
 203        <activity
-203-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:150:9-153:64
+203-->E:\Bluewire\app\src\main\AndroidManifest.xml:150:9-153:64
 204            android:name="com.onlinepatch.SmartShare.activity.WebShareActivity"
-204-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:151:13-54
+204-->E:\Bluewire\app\src\main\AndroidManifest.xml:151:13-54
 205            android:label="Web Share"
-205-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:152:13-38
+205-->E:\Bluewire\app\src\main\AndroidManifest.xml:152:13-38
 206            android:theme="@style/Theme.TBShare.NoActionBar" />
-206-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:153:13-61
+206-->E:\Bluewire\app\src\main\AndroidManifest.xml:153:13-61
 207        <activity
-207-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:154:9-157:64
+207-->E:\Bluewire\app\src\main\AndroidManifest.xml:154:9-157:64
 208            android:name="com.onlinepatch.SmartShare.activity.HistoryActivity"
-208-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:155:13-53
+208-->E:\Bluewire\app\src\main\AndroidManifest.xml:155:13-53
 209            android:label=""
-209-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:156:13-29
+209-->E:\Bluewire\app\src\main\AndroidManifest.xml:156:13-29
 210            android:theme="@style/Theme.TBShare.NoActionBar" />
-210-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:157:13-61
+210-->E:\Bluewire\app\src\main\AndroidManifest.xml:157:13-61
 211        <activity
-211-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:158:9-161:64
+211-->E:\Bluewire\app\src\main\AndroidManifest.xml:158:9-161:64
 212            android:name="com.onlinepatch.SmartShare.activity.InviteActivity"
-212-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:159:13-52
+212-->E:\Bluewire\app\src\main\AndroidManifest.xml:159:13-52
 213            android:label=""
-213-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:160:13-29
+213-->E:\Bluewire\app\src\main\AndroidManifest.xml:160:13-29
 214            android:theme="@style/Theme.TBShare.NoActionBar" />
-214-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:161:13-61
+214-->E:\Bluewire\app\src\main\AndroidManifest.xml:161:13-61
 215
 216        <provider
 217            android:name="androidx.core.content.FileProvider"
-217-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:164:13-62
+217-->E:\Bluewire\app\src\main\AndroidManifest.xml:164:13-62
 218            android:authorities="com.onlinepatch.SmartShare.fileprovider"
-218-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:165:13-64
+218-->E:\Bluewire\app\src\main\AndroidManifest.xml:165:13-64
 219            android:exported="false"
-219-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:166:13-37
+219-->E:\Bluewire\app\src\main\AndroidManifest.xml:166:13-37
 220            android:grantUriPermissions="true" >
-220-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:167:13-47
+220-->E:\Bluewire\app\src\main\AndroidManifest.xml:167:13-47
 221            <meta-data
-221-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:168:13-170:58
+221-->E:\Bluewire\app\src\main\AndroidManifest.xml:168:13-170:58
 222                android:name="android.support.FILE_PROVIDER_PATHS"
-222-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:169:17-67
+222-->E:\Bluewire\app\src\main\AndroidManifest.xml:169:17-67
 223                android:resource="@xml/provider_paths" />
-223-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:170:17-55
+223-->E:\Bluewire\app\src\main\AndroidManifest.xml:170:17-55
 224        </provider>
 225
 226        <receiver
-226-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:173:9-182:20
+226-->E:\Bluewire\app\src\main\AndroidManifest.xml:173:9-182:20
 227            android:name="com.onlinepatch.SmartShare.receiver.NetworkStatusReceiver"
-227-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:174:13-59
+227-->E:\Bluewire\app\src\main\AndroidManifest.xml:174:13-59
 228            android:process=":transfer" >
-228-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:175:13-40
+228-->E:\Bluewire\app\src\main\AndroidManifest.xml:175:13-40
 229            <intent-filter>
-229-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:176:13-181:29
+229-->E:\Bluewire\app\src\main\AndroidManifest.xml:176:13-181:29
 230                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
-230-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:177:17-78
-230-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:177:25-75
+230-->E:\Bluewire\app\src\main\AndroidManifest.xml:177:17-78
+230-->E:\Bluewire\app\src\main\AndroidManifest.xml:177:25-75
 231                <action android:name="android.net.wifi.WIFI_AP_STATE_CHANGED" />
-231-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:178:17-81
-231-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:178:25-78
+231-->E:\Bluewire\app\src\main\AndroidManifest.xml:178:17-81
+231-->E:\Bluewire\app\src\main\AndroidManifest.xml:178:25-78
 232                <action android:name="android.net.wifi.STATE_CHANGE" />
-232-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:179:17-72
-232-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:179:25-69
+232-->E:\Bluewire\app\src\main\AndroidManifest.xml:179:17-72
+232-->E:\Bluewire\app\src\main\AndroidManifest.xml:179:25-69
 233                <action android:name="android.net.wifi.p2p.CONNECTION_STATE_CHANGE" />
-233-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:180:17-87
-233-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:180:25-84
+233-->E:\Bluewire\app\src\main\AndroidManifest.xml:180:17-87
+233-->E:\Bluewire\app\src\main\AndroidManifest.xml:180:25-84
 234            </intent-filter>
 235        </receiver>
 236        <receiver
-236-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:183:9-185:43
+236-->E:\Bluewire\app\src\main\AndroidManifest.xml:183:9-185:43
 237            android:name="com.onlinepatch.SmartShare.receiver.DialogEventReceiver"
-237-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:184:13-57
+237-->E:\Bluewire\app\src\main\AndroidManifest.xml:184:13-57
 238            android:process=":transfer" />
-238-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:185:13-40
+238-->E:\Bluewire\app\src\main\AndroidManifest.xml:185:13-40
 239
 240        <service
-240-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:187:9-191:43
+240-->E:\Bluewire\app\src\main\AndroidManifest.xml:187:9-191:43
 241            android:name="com.onlinepatch.SmartShare.service.CommunicationService"
-241-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:188:13-57
+241-->E:\Bluewire\app\src\main\AndroidManifest.xml:188:13-57
 242            android:enabled="true"
-242-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:189:13-35
+242-->E:\Bluewire\app\src\main\AndroidManifest.xml:189:13-35
 243            android:label="@string/text_communicationService"
-243-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:190:13-62
+243-->E:\Bluewire\app\src\main\AndroidManifest.xml:190:13-62
 244            android:process=":transfer" />
-244-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:191:13-40
+244-->E:\Bluewire\app\src\main\AndroidManifest.xml:191:13-40
 245        <service
-245-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:192:9-199:19
+245-->E:\Bluewire\app\src\main\AndroidManifest.xml:192:9-199:19
 246            android:name="com.onlinepatch.SmartShare.service.DeviceChooserService"
-246-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:193:13-57
+246-->E:\Bluewire\app\src\main\AndroidManifest.xml:193:13-57
 247            android:label="@string/text_chooserTargetService"
-247-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:194:13-62
+247-->E:\Bluewire\app\src\main\AndroidManifest.xml:194:13-62
 248            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" >
-248-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:195:13-80
+248-->E:\Bluewire\app\src\main\AndroidManifest.xml:195:13-80
 249            <intent-filter>
-249-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:196:13-198:29
+249-->E:\Bluewire\app\src\main\AndroidManifest.xml:196:13-198:29
 250                <action android:name="android.service.chooser.ChooserTargetService" />
-250-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:197:17-87
-250-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:197:25-84
+250-->E:\Bluewire\app\src\main\AndroidManifest.xml:197:17-87
+250-->E:\Bluewire\app\src\main\AndroidManifest.xml:197:25-84
 251            </intent-filter>
 252        </service>
 253        <service android:name="com.onlinepatch.SmartShare.service.DeviceScannerService" >
-253-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:200:9-207:19
-253-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:200:18-62
+253-->E:\Bluewire\app\src\main\AndroidManifest.xml:200:9-207:19
+253-->E:\Bluewire\app\src\main\AndroidManifest.xml:200:18-62
 254            <intent-filter>
-254-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:201:13-206:29
+254-->E:\Bluewire\app\src\main\AndroidManifest.xml:201:13-206:29
 255                <action android:name="com.onlinepatch.SmartShare.intent.action.SCAN_DEVICES" />
-255-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:202:17-96
-255-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:202:25-93
+255-->E:\Bluewire\app\src\main\AndroidManifest.xml:202:17-96
+255-->E:\Bluewire\app\src\main\AndroidManifest.xml:202:25-93
 256                <action android:name="com.onlinepatch.SmartShare.intent.action.ADD_IP" />
-256-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:203:17-90
-256-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:203:25-87
+256-->E:\Bluewire\app\src\main\AndroidManifest.xml:203:17-90
+256-->E:\Bluewire\app\src\main\AndroidManifest.xml:203:25-87
 257
 258                <category android:name="android.intent.category.DEFAULT" />
-258-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:17-76
-258-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:80:27-73
+258-->E:\Bluewire\app\src\main\AndroidManifest.xml:80:17-76
+258-->E:\Bluewire\app\src\main\AndroidManifest.xml:80:27-73
 259            </intent-filter>
 260        </service>
 261        <service
-261-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:208:9-210:58
+261-->E:\Bluewire\app\src\main\AndroidManifest.xml:208:9-210:58
 262            android:name="com.onlinepatch.SmartShare.service.WorkerService"
-262-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:209:13-50
+262-->E:\Bluewire\app\src\main\AndroidManifest.xml:209:13-50
 263            android:label="@string/text_workerService" />
-263-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:210:13-55
+263-->E:\Bluewire\app\src\main\AndroidManifest.xml:210:13-55
 264        <service
-264-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:211:9-220:19
+264-->E:\Bluewire\app\src\main\AndroidManifest.xml:211:9-220:19
 265            android:name="com.onlinepatch.SmartShare.service.CommunicationToggleTile"
-265-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:212:13-60
+265-->E:\Bluewire\app\src\main\AndroidManifest.xml:212:13-60
 266            android:icon="@mipmap/ic_launcher"
-266-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:213:13-47
+266-->E:\Bluewire\app\src\main\AndroidManifest.xml:213:13-47
 267            android:label="@string/text_shareFiles"
-267-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:214:13-52
+267-->E:\Bluewire\app\src\main\AndroidManifest.xml:214:13-52
 268            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE"
-268-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:215:13-77
+268-->E:\Bluewire\app\src\main\AndroidManifest.xml:215:13-77
 269            android:process=":transfer" >
-269-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:216:13-40
+269-->E:\Bluewire\app\src\main\AndroidManifest.xml:216:13-40
 270            <intent-filter>
-270-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:217:13-219:29
+270-->E:\Bluewire\app\src\main\AndroidManifest.xml:217:13-219:29
 271                <action android:name="android.service.quicksettings.action.QS_TILE" />
-271-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:218:17-87
-271-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:218:25-84
+271-->E:\Bluewire\app\src\main\AndroidManifest.xml:218:17-87
+271-->E:\Bluewire\app\src\main\AndroidManifest.xml:218:25-84
 272            </intent-filter>
 273        </service>
 274
 275        <activity
-275-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:36:9-42:63
+275-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:36:9-42:63
 276            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-276-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:37:13-74
+276-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:37:13-74
 277            android:clearTaskOnLaunch="true"
-277-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:38:13-45
+277-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:38:13-45
 278            android:screenOrientation="sensorLandscape"
-278-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:39:13-56
+278-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:39:13-56
 279            android:stateNotNeeded="true"
-279-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:40:13-42
+279-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:40:13-42
 280            android:theme="@style/zxing_CaptureTheme"
-280-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:41:13-54
+280-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:41:13-54
 281            android:windowSoftInputMode="stateAlwaysHidden" />
-281-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\91e61fa3c90ad3e9121e300e50ec278e\jetified-zxing-3.6.3\AndroidManifest.xml:42:13-60
+281-->[com.velitasali.tools.android:zxing:3.6.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62e97c8eaba4fefe5e650cc16efa2a40\jetified-zxing-3.6.3\AndroidManifest.xml:42:13-60
 282
 283        <meta-data
-283-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:49:9-51:51
+283-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:49:9-51:51
 284            android:name="onesignal_app_id"
-284-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:50:13-44
+284-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:50:13-44
 285            android:value="Your OneSignal ID" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
-285-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:51:13-48
+285-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:51:13-48
 286        <meta-data
-286-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:53:9-55:70
+286-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:53:9-55:70
 287            android:name="onesignal_google_project_number"
-287-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:54:13-59
+287-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:54:13-59
 288            android:value="str:REMOTE" />
-288-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:55:13-67
+288-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:55:13-67
 289
 290        <receiver
-290-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:57:9-67:20
+290-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:57:9-67:20
 291            android:name="com.onesignal.GcmBroadcastReceiver"
-291-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:58:13-62
+291-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:58:13-62
 292            android:permission="com.google.android.c2dm.permission.SEND" >
-292-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:59:13-73
+292-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:59:13-73
 293
 294            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
 295            <intent-filter android:priority="999" >
-295-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:13-66:29
-295-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:28-50
+295-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:13-66:29
+295-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:62:28-50
 296                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-296-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:17-81
-296-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:25-78
+296-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:17-81
+296-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:25-78
 297
 298                <category android:name="com.onlinepatch.SmartShare" />
-298-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:17-61
-298-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:27-58
+298-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:17-61
+298-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:65:27-58
 299            </intent-filter>
 300        </receiver>
 301        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
-301-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:68:9-77
-301-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:68:19-74
+301-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:68:9-77
+301-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:68:19-74
 302
 303        <service
-303-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:70:9-76:19
+303-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:70:9-76:19
 304            android:name="com.onesignal.HmsMessageServiceOneSignal"
-304-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:71:13-68
+304-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:71:13-68
 305            android:exported="false" >
-305-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:72:13-37
+305-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:72:13-37
 306            <intent-filter>
-306-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:73:13-75:29
+306-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:73:13-75:29
 307                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
-307-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:74:17-81
-307-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:74:25-78
+307-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:74:17-81
+307-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:74:25-78
 308            </intent-filter>
 309        </service>
 310
 311        <activity
-311-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:78:9-84:20
+311-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:78:9-84:20
 312            android:name="com.onesignal.NotificationOpenedActivityHMS"
-312-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:79:13-71
+312-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:79:13-71
 313            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-313-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:80:13-72
+313-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:80:13-72
 314            <intent-filter>
-314-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:81:13-83:29
+314-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:81:13-83:29
 315                <action android:name="android.intent.action.VIEW" />
-315-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:110:17-69
-315-->E:\Android\SmartShare\app\src\main\AndroidManifest.xml:110:25-66
+315-->E:\Bluewire\app\src\main\AndroidManifest.xml:110:17-69
+315-->E:\Bluewire\app\src\main\AndroidManifest.xml:110:25-66
 316            </intent-filter>
 317        </activity>
 318
 319        <service android:name="com.onesignal.GcmIntentService" />
-319-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:86:9-66
-319-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:86:18-63
+319-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:86:9-66
+319-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:86:18-63
 320        <service
-320-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:87:9-89:72
+320-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:87:9-89:72
 321            android:name="com.onesignal.GcmIntentJobService"
-321-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:88:13-61
+321-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:88:13-61
 322            android:permission="android.permission.BIND_JOB_SERVICE" />
-322-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:89:13-69
+322-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:89:13-69
 323        <service
-323-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:90:9-92:72
+323-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:90:9-92:72
 324            android:name="com.onesignal.RestoreJobService"
-324-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:91:13-59
+324-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:91:13-59
 325            android:permission="android.permission.BIND_JOB_SERVICE" />
-325-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:92:13-69
+325-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:92:13-69
 326        <service
-326-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:93:9-95:72
+326-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:93:9-95:72
 327            android:name="com.onesignal.RestoreKickoffJobService"
-327-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:94:13-66
+327-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:94:13-66
 328            android:permission="android.permission.BIND_JOB_SERVICE" />
-328-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:95:13-69
+328-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:95:13-69
 329        <service
-329-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:96:9-98:43
+329-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:96:9-98:43
 330            android:name="com.onesignal.SyncService"
-330-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:97:13-53
+330-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:97:13-53
 331            android:stopWithTask="true" />
-331-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:98:13-40
+331-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:98:13-40
 332        <service
-332-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:99:9-101:72
+332-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:99:9-101:72
 333            android:name="com.onesignal.SyncJobService"
-333-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:100:13-56
+333-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:100:13-56
 334            android:permission="android.permission.BIND_JOB_SERVICE" />
-334-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:101:13-69
+334-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:101:13-69
 335
 336        <activity
-336-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:103:9-105:75
+336-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:103:9-105:75
 337            android:name="com.onesignal.PermissionsActivity"
-337-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:104:13-61
+337-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:104:13-61
 338            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-338-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:105:13-72
+338-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:105:13-72
 339
 340        <service android:name="com.onesignal.NotificationRestoreService" />
-340-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:107:9-76
-340-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:107:18-73
+340-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:107:9-76
+340-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:107:18-73
 341
 342        <receiver android:name="com.onesignal.BootUpReceiver" >
-342-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:109:9-114:20
-342-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:109:19-62
+342-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:109:9-114:20
+342-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:109:19-62
 343            <intent-filter>
-343-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:110:13-113:29
+343-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:110:13-113:29
 344                <action android:name="android.intent.action.BOOT_COMPLETED" />
-344-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:111:17-79
-344-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:111:25-76
+344-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:111:17-79
+344-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:111:25-76
 345                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-345-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:112:17-82
-345-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:112:25-79
+345-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:112:17-82
+345-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:112:25-79
 346            </intent-filter>
 347        </receiver>
 348        <receiver android:name="com.onesignal.UpgradeReceiver" >
-348-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:115:9-119:20
-348-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:115:19-63
+348-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:115:9-119:20
+348-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:115:19-63
 349            <intent-filter>
-349-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:116:13-118:29
+349-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:116:13-118:29
 350                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-350-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:117:17-84
-350-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:117:25-81
+350-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:117:17-84
+350-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:117:25-81
 351            </intent-filter>
 352        </receiver>
 353
 354        <meta-data
-354-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:11:9-13:43
+354-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cc7d5cc543a435fa6f029870295d43b8\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:11:9-13:43
 355            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
-355-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:12:13-84
+355-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cc7d5cc543a435fa6f029870295d43b8\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:12:13-84
 356            android:value="GlideModule" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
-356-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fde82a7a355878c1b62a11b4dc594887\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:13:13-40
+356-->[com.github.bumptech.glide:okhttp3-integration:4.8.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cc7d5cc543a435fa6f029870295d43b8\jetified-okhttp3-integration-4.8.0\AndroidManifest.xml:13:13-40
 357        <activity
-357-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:29:9-33:64
+357-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9da1cc1a5a2ad8fead52506e522ded54\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:29:9-33:64
 358            android:name="com.google.android.gms.ads.AdActivity"
-358-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:30:13-65
+358-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9da1cc1a5a2ad8fead52506e522ded54\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:30:13-65
 359            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
-359-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:31:13-122
+359-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9da1cc1a5a2ad8fead52506e522ded54\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:31:13-122
 360            android:exported="false"
-360-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:32:13-37
+360-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9da1cc1a5a2ad8fead52506e522ded54\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:32:13-37
 361            android:theme="@android:style/Theme.Translucent" />
-361-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:33:13-61
+361-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9da1cc1a5a2ad8fead52506e522ded54\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:33:13-61
 362
 363        <provider
-363-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:35:9-39:39
+363-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9da1cc1a5a2ad8fead52506e522ded54\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:35:9-39:39
 364            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-364-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:36:13-76
+364-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9da1cc1a5a2ad8fead52506e522ded54\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:36:13-76
 365            android:authorities="com.onlinepatch.SmartShare.mobileadsinitprovider"
-365-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:37:13-73
+365-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9da1cc1a5a2ad8fead52506e522ded54\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:37:13-73
 366            android:exported="false"
-366-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:38:13-37
+366-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9da1cc1a5a2ad8fead52506e522ded54\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:38:13-37
 367            android:initOrder="100" />
-367-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\62c8192dab264ef4e74813e201df900b\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:39:13-36
+367-->[com.google.android.gms:play-services-ads-lite:19.3.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9da1cc1a5a2ad8fead52506e522ded54\jetified-play-services-ads-lite-19.3.0\AndroidManifest.xml:39:13-36
 368        <!--
 369             FirebaseMessagingService performs security checks at runtime,
 370             no need for explicit permissions despite exported="true"
 371        -->
 372        <service
-372-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
+372-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a13e7d8b050f223b009249c5a3eb1f0a\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:28:9-34:19
 373            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-373-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
+373-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a13e7d8b050f223b009249c5a3eb1f0a\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:29:13-82
 374            android:exported="true" >
-374-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
+374-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a13e7d8b050f223b009249c5a3eb1f0a\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:30:13-36
 375            <intent-filter android:priority="-500" >
-375-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:13-33:29
-375-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:28-51
+375-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a13e7d8b050f223b009249c5a3eb1f0a\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:13-33:29
+375-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a13e7d8b050f223b009249c5a3eb1f0a\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:31:28-51
 376                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-376-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:17-78
-376-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\166af3fe0658f6463f32f39dfa92a788\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:25-75
+376-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a13e7d8b050f223b009249c5a3eb1f0a\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:17-78
+376-->[com.google.firebase:firebase-messaging:17.3.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a13e7d8b050f223b009249c5a3eb1f0a\jetified-firebase-messaging-17.3.3\AndroidManifest.xml:32:25-75
 377            </intent-filter>
 378        </service>
 379        <service
-379-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
+379-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:29:9-35:19
 380            android:name="com.google.firebase.components.ComponentDiscoveryService"
-380-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
+380-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:30:13-84
 381            android:exported="false" >
-381-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
+381-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:31:13-37
 382            <meta-data
-382-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
+382-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
 383                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-383-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
+383-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
 384                android:value="com.google.firebase.components.ComponentRegistrar" />
-384-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
+384-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
 385        </service>
 386
 387        <receiver
-387-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
+387-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
 388            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-388-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
+388-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
 389            android:exported="true"
-389-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
+389-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
 390            android:permission="com.google.android.c2dm.permission.SEND" >
-390-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
+390-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
 391            <intent-filter>
-391-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
+391-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
 392                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-392-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:17-81
-392-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a199d6de0a34e2ac4c365288ff95698e\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:25-78
+392-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:17-81
+392-->[com.onesignal:OneSignal:3.15.1] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\8f99f9c4a26c42a90bfd1ef0e74cb76c\jetified-OneSignal-3.15.1\AndroidManifest.xml:63:25-78
 393            </intent-filter>
 394        </receiver>
 395        <!--
@@ -788,39 +788,39 @@
 397             no need for explicit permissions despite exported="true"
 398        -->
 399        <service
-399-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
+399-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
 400            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-400-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
+400-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
 401            android:exported="true" >
-401-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
+401-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
 402            <intent-filter android:priority="-500" >
-402-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
-402-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
+402-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
+402-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
 403                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-403-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
-403-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\cf95f0cf1d5142c38d0c88647614d098\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
+403-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
+403-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\9a4ec6bab06da64b20ac48be68c2685e\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
 404            </intent-filter>
 405        </service>
 406
 407        <activity
-407-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+407-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a505dca995ed3be43580804232abd62e\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
 408            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-408-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+408-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a505dca995ed3be43580804232abd62e\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
 409            android:exported="false"
-409-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+409-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a505dca995ed3be43580804232abd62e\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
 410            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-410-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\fce0c3a8e6161d712cdd02df8f5473f7\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+410-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\a505dca995ed3be43580804232abd62e\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
 411
 412        <provider
-412-->[com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+412-->[com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\18270429db0051aacac0f5ebc5f68884\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
 413            android:name="com.google.firebase.provider.FirebaseInitProvider"
-413-->[com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+413-->[com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\18270429db0051aacac0f5ebc5f68884\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
 414            android:authorities="com.onlinepatch.SmartShare.firebaseinitprovider"
-414-->[com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+414-->[com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\18270429db0051aacac0f5ebc5f68884\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
 415            android:exported="false"
-415-->[com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+415-->[com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\18270429db0051aacac0f5ebc5f68884\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
 416            android:initOrder="100" />
-416-->[com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\83050ce08894c7a321474118cc44fd17\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+416-->[com.google.firebase:firebase-common:16.0.3] C:\Users\surya\.gradle\caches\transforms-2\files-2.1\18270429db0051aacac0f5ebc5f68884\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
 417    </application>
 418
 419</manifest>

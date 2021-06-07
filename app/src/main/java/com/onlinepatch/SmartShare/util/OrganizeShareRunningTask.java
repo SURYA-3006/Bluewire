@@ -4,7 +4,7 @@ import android.net.Uri;
 
 import com.onlinepatch.SmartShare.R;
 import com.onlinepatch.SmartShare.activity.AddDevicesToTransferActivity;
-import com.onlinepatch.SmartShare.activity.ShareActivity;
+import com.onlinepatch.SmartShare.activity.Share1Activity;
 import com.onlinepatch.SmartShare.activity.ViewTransferActivity;
 import com.onlinepatch.SmartShare.db.AccessDatabase;
 import com.onlinepatch.SmartShare.model.TransferGroup;
@@ -17,7 +17,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrganizeShareRunningTask extends WorkerService.RunningTask<ShareActivity>
+public class OrganizeShareRunningTask extends WorkerService.RunningTask<Share1Activity>
 {
     private List<Uri> mFileUris;
     private List<CharSequence> mFileNames;
@@ -38,7 +38,7 @@ public class OrganizeShareRunningTask extends WorkerService.RunningTask<ShareAct
             getAnchorListener().updateText(thisTask, getService().getString(R.string.mesg_organizingFiles));
         }
 
-        final List<ShareActivity.SelectableStream> measuredObjects = new ArrayList<>();
+        final List<Share1Activity.SelectableStream> measuredObjects = new ArrayList<>();
         final List<TransferObject> pendingObjects = new ArrayList<>();
         final TransferGroup groupInstance = new TransferGroup(AppUtils.getUniqueNumber());
 
@@ -58,11 +58,11 @@ public class OrganizeShareRunningTask extends WorkerService.RunningTask<ShareAct
             String fileName = mFileNames != null ? String.valueOf(mFileNames.get(position)) : null;
 
             try {
-                ShareActivity.SelectableStream selectableStream =
-                        new ShareActivity.SelectableStream(getService(), fileUri, null);
+                Share1Activity.SelectableStream selectableStream =
+                        new Share1Activity.SelectableStream(getService(), fileUri, null);
 
                 if (selectableStream.getDocumentFile().isDirectory())
-                    ShareActivity.createFolderStructure(selectableStream.getDocumentFile(),
+                    Share1Activity.createFolderStructure(selectableStream.getDocumentFile(),
                             selectableStream.getDocumentFile().getName(), measuredObjects,
                             this);
                 else {
@@ -76,7 +76,7 @@ public class OrganizeShareRunningTask extends WorkerService.RunningTask<ShareAct
             }
         }
 
-        for (ShareActivity.SelectableStream selectableStream : measuredObjects) {
+        for (Share1Activity.SelectableStream selectableStream : measuredObjects) {
             if (getInterrupter().interrupted())
                 break;
 

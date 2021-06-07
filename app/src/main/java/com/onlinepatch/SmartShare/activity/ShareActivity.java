@@ -1,290 +1,380 @@
 package com.onlinepatch.SmartShare.activity;
 
+import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.pm.PackageManager;
+import android.content.res.Configuration;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.LocaleList;
+import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ProgressBar;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.core.view.GravityCompat;
+import androidx.drawerlayout.widget.DrawerLayout;
 
-import com.onlinepatch.SmartShare.util.OrganizeShareRunningTask;
-import com.onlinepatch.SmartShare.util.FileUtils;
+import com.afollestad.materialdialogs.MaterialDialog;
+import com.genonbeta.android.framework.widget.PowerfulActionMode;
+import com.google.android.material.navigation.NavigationView;
 import com.onlinepatch.SmartShare.R;
-import com.onlinepatch.SmartShare.service.WorkerService;
-import com.genonbeta.android.framework.io.DocumentFile;
-import com.genonbeta.android.framework.object.Selectable;
-import com.genonbeta.android.framework.ui.callback.SnackbarSupport;
-import com.google.android.material.snackbar.Snackbar;
+import com.onlinepatch.SmartShare.fragment.HomeOldFragment;
+import com.onlinepatch.SmartShare.model.NetworkDevice;
+import com.onlinepatch.SmartShare.service.CommunicationService;
+import com.onlinepatch.SmartShare.util.AppUtils;
+import com.onlinepatch.SmartShare.util.PowerfulActionModeSupport;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
+import static android.Manifest.permission.READ_PHONE_STATE;
+import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
-public class ShareActivity extends Activity
-        implements SnackbarSupport, Activity.OnPreloadArgumentWatcher, WorkerService.OnAttachListener
+
+
+public class ShareActivity
+        extends Activity
+        implements NavigationView.OnNavigationItemSelectedListener, PowerfulActionModeSupport
 {
-    public static final String TAG = "ShareActivity";
-
-    public static final String ACTION_SEND = "com.onlinepatch.SmartShare.intent.action.TBShare_SEND";
-    public static final String ACTION_SEND_MULTIPLE = "com.onlinepatch.SmartShare.intent.action.TBShare_SEND_MULTIPLE";
-
-    public static final String EXTRA_FILENAME_LIST = "extraFileNames";
-    public static final String EXTRA_DEVICE_ID = "extraDeviceId";
-    public static final String EXTRA_GROUP_ID = "extraGroupId";
-
-    private Bundle mPreLoadingBundle = new Bundle();
-    private Button mCancelButton;
-    private ProgressBar mProgressBar;
-    private TextView mProgressTextLeft;
-    private TextView mProgressTextRight;
-    private TextView mTextMain;
-    private List<Uri> mFileUris;
-    private List<CharSequence> mFileNames;
-    private OrganizeShareRunningTask mTask;
-
-    public static void createFolderStructure(DocumentFile file, String folderName,
-                                             List<SelectableStream> pendingObjects,
-                                             OrganizeShareRunningTask task)
-    {
-        DocumentFile[] files = file.listFiles();
-
-        if (files != null) {
-
-            if (task.getAnchorListener() != null)
-                task.getAnchorListener().getProgressBar()
-                        .setMax(task.getAnchorListener().getProgressBar().getMax() + files.length);
-
-            for (DocumentFile thisFile : files) {
-                if (task.getAnchorListener() != null)
-                    task.getAnchorListener().getProgressBar()
-                            .setProgress(task.getAnchorListener().getProgressBar().getProgress() + 1);
-
-                if (task.getInterrupter().interrupted())
-                    break;
-
-                if (thisFile.isDirectory()) {
-                    createFolderStructure(thisFile, (
-                                    folderName != null ? folderName + File.separator : null)
-                                    + thisFile.getName(),
-                            pendingObjects, task);
-                    continue;
-                }
-
-                try {
-                    pendingObjects.add(new SelectableStream(thisFile, folderName));
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
+    public static final int REQUEST_PERMISSION_ALL = 1;
+    private static final int PERMISSION_REQUEST_CODE = 200;
+    private NavigationView mNavigationView;
+    private DrawerLayout mDrawerLayout;
+    private PowerfulActionMode mActionMode;
+    private HomeOldFragment mHomeOldFragment;
+    private IntentFilter mFilter = new IntentFilter();
+    private BroadcastReceiver mReceiver = null;
+    NetworkDevice localDevice;
+    private long mExitPressTime;
+    private int mChosenMenuItemId;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_share);
 
-        String action = getIntent() != null ? getIntent().getAction() : null;
+        setContentView(R.layout.activity_main);
 
-        if (ACTION_SEND.equals(action)
-                || ACTION_SEND_MULTIPLE.equals(action)
-                || Intent.ACTION_SEND.equals(action)
-                || Intent.ACTION_SEND_MULTIPLE.equals(action)) {
-            if (getIntent().hasExtra(Intent.EXTRA_TEXT)) {
-                startActivity(new Intent(ShareActivity.this, TextEditorActivity.class)
-                        .setAction(TextEditorActivity.ACTION_EDIT_TEXT)
-                        .putExtra(TextEditorActivity.EXTRA_TEXT_INDEX, getIntent().getStringExtra(Intent.EXTRA_TEXT)));
-                finish();
-            } else {
-                ArrayList<Uri> fileUris = new ArrayList<>();
-                ArrayList<CharSequence> fileNames = null;
+        final Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        if (checkPermission()) {
 
-                if (ACTION_SEND_MULTIPLE.equals(action)
-                        || Intent.ACTION_SEND_MULTIPLE.equals(action)) {
-                    List<Uri> pendingFileUris = getIntent().getParcelableArrayListExtra(Intent.EXTRA_STREAM);
-                    fileNames = getIntent().hasExtra(EXTRA_FILENAME_LIST) ? getIntent().getCharSequenceArrayListExtra(EXTRA_FILENAME_LIST) : null;
 
-                    fileUris.addAll(pendingFileUris);
-                } else {
-                    fileUris.add((Uri) getIntent().getParcelableExtra(Intent.EXTRA_STREAM));
+        } else {
+            requestPermission();
 
-                    if (getIntent().hasExtra(EXTRA_FILENAME_LIST)) {
-                        fileNames = new ArrayList<>();
-                        String fileName = getIntent().getStringExtra(EXTRA_FILENAME_LIST);
+        }
+        mHomeOldFragment = (HomeOldFragment) getSupportFragmentManager().findFragmentById(R.id.activitiy_home_fragment);
+        mActionMode = findViewById(R.id.content_powerful_action_mode);
+        mNavigationView = findViewById(R.id.nav_view);
+        mDrawerLayout = findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.text_navigationDrawerOpen,
+                R.string.text_navigationDrawerClose);
+        mDrawerLayout.addDrawerListener(toggle);
+        toggle.syncState();
 
-                        fileNames.add(fileName);
+        LinearLayout actionHistory = (LinearLayout) findViewById(R.id.history);
+        actionHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ShareActivity.this, HistoryActivity.class));
+            }
+        });
+
+        Configuration configuration = getResources().getConfiguration();
+
+        if (Build.VERSION.SDK_INT >= 24) {
+            LocaleList list = configuration.getLocales();
+
+            if (list.size() > 0)
+                for (int pos = 0; pos < list.size(); pos++)
+                    if (list.get(pos).toLanguageTag().startsWith("en")) {
+                        break;
+                    }
+        }
+
+        localDevice = AppUtils.getLocalDevice(this);
+
+        ImageView imageView = findViewById(R.id.layout_profile_picture_image_default);
+        ImageView editImageView = findViewById(R.id.layout_profile_picture_image_preferred);
+        TextView deviceNameText = findViewById(R.id.header_default_device_name_text);
+        TextView versionText = findViewById(R.id.header_default_device_version_text);
+
+        deviceNameText.setText(localDevice.nickname);
+        versionText.setText(localDevice.versionName);
+        loadProfilePictureInto(localDevice.nickname, imageView);
+
+        editImageView.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startProfileEditor();
+            }
+        });
+
+
+        mFilter.addAction(CommunicationService.ACTION_TRUSTZONE_STATUS);
+        mDrawerLayout.addDrawerListener(new DrawerLayout.SimpleDrawerListener()
+        {
+            @Override
+            public void onDrawerClosed(View drawerView)
+            {
+                applyAwaitingDrawerAction();
+            }
+        });
+
+        mNavigationView.setNavigationItemSelectedListener(this);
+        mActionMode.setOnSelectionTaskListener(new PowerfulActionMode.OnSelectionTaskListener()
+        {
+            @Override
+            public void onSelectionTask(boolean started, PowerfulActionMode actionMode)
+            {
+                toolbar.setVisibility(!started ? View.VISIBLE : View.GONE);
+            }
+        });
+
+
+    }
+
+
+    @Override
+    protected void onStart()
+    {
+        super.onStart();
+        createHeaderView();
+    }
+
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
+
+
+
+        registerReceiver(mReceiver = new ActivityReceiver(), mFilter);
+        requestTrustZoneStatus();
+    }
+
+    @Override
+    protected void onPause()
+    {
+        super.onPause();
+
+        if (mReceiver != null)
+            unregisterReceiver(mReceiver);
+
+        mReceiver = null;
+    }
+
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item)
+    {
+        mChosenMenuItemId = item.getItemId();
+
+        if (mDrawerLayout != null)
+            mDrawerLayout.closeDrawer(GravityCompat.START);
+
+        return true;
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+            super.onBackPressed();
+    }
+
+    @Override
+    public void onUserProfileUpdated()
+    {
+        createHeaderView();
+    }
+
+    private void applyAwaitingDrawerAction()
+    {
+        if (mChosenMenuItemId == 0) {
+        }
+        else if (R.id.menu_activity_home == mChosenMenuItemId) {
+            startActivity(new Intent(this, HomeActivity.class));
+
+        }
+        else if (R.id.menu_activity_share == mChosenMenuItemId) {
+            startActivity(new Intent(this, ContentSharingActivity.class));
+
+        } else if (R.id.menu_activity_receive == mChosenMenuItemId) {
+            startActivity(new Intent(this, ConnectionManagerActivity.class)
+                    .putExtra(ConnectionManagerActivity.EXTRA_ACTIVITY_SUBTITLE, getString(R.string.text_receive))
+                    .putExtra(ConnectionManagerActivity.EXTRA_REQUEST_TYPE, ConnectionManagerActivity.RequestType.MAKE_ACQUAINTANCE.toString()));
+
+        } else if (R.id.nav_share == mChosenMenuItemId) {
+
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            String shareBody = "Download app now. https://drive.google.com/drive/folders/1lKLIc5fD3SCj7eFtkiIR3oM28kOusBjO?usp=sharing"
+                    + getApplicationContext().getPackageName();
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Share App");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
+
+        } else if (R.id.about_me == mChosenMenuItemId) {
+            aboutMyApp();
+        } else if (R.id.rate_us == mChosenMenuItemId) {
+
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://docs.google.com/forms" +
+                    "/d/1td8lZiv16ts1OsAbGDF6Kz9yHyV9QEQML9Wy75ayG3c/edit?usp=sharing" + getApplicationContext().getPackageName())));
+        }
+            else if (R.id.nav_exit == mChosenMenuItemId) {
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+            }
+        mChosenMenuItemId = 0;
+    }
+
+    private void aboutMyApp() {
+
+        MaterialDialog.Builder bulder = new MaterialDialog.Builder(this)
+                .customView(R.layout.about, true)
+                .backgroundColor(getResources().getColor(R.color.grey))
+                .titleColorRes(android.R.color.white);
+        MaterialDialog materialDialog = bulder.build();
+
+        TextView versionCode = (TextView) materialDialog.findViewById(R.id.version_code);
+        TextView versionName = (TextView) materialDialog.findViewById(R.id.version_name);
+        versionCode.setText(String.valueOf("Developers :   Suryakant Prusty\nBiswajit Swain\nTushar Sharma"));
+        versionName.setText(String.valueOf("\nBluewire application focuses on facilitating easy transfer of data " +
+                "and share information through message functionality."));
+        materialDialog.show();
+    }
+
+    private void createHeaderView()
+    {
+        View headerView = mNavigationView.getHeaderView(0);
+        Configuration configuration = getApplication().getResources().getConfiguration();
+
+        if (Build.VERSION.SDK_INT >= 24) {
+            LocaleList list = configuration.getLocales();
+
+            if (list.size() > 0)
+                for (int pos = 0; pos < list.size(); pos++)
+                    if (list.get(pos).toLanguageTag().startsWith("en")) {
+                        break;
+                    }
+        }
+        if (headerView != null) {
+            NetworkDevice localDevice = AppUtils.getLocalDevice(getApplicationContext());
+
+            ImageView imageView = headerView.findViewById(R.id.layout_profile_picture_image_default);
+            ImageView editImageView = headerView.findViewById(R.id.layout_profile_picture_image_preferred);
+            TextView deviceNameText = headerView.findViewById(R.id.header_default_device_name_text);
+            TextView versionText = headerView.findViewById(R.id.header_default_device_version_text);
+
+            deviceNameText.setText(localDevice.nickname);
+            versionText.setText(localDevice.versionName);
+            loadProfilePictureInto(localDevice.nickname, imageView);
+
+            editImageView.setOnClickListener(new View.OnClickListener()
+            {
+                @Override
+                public void onClick(View v)
+                {
+                    startProfileEditor();
+                }
+            });
+        }
+    }
+
+    @Override
+    public PowerfulActionMode getPowerfulActionMode()
+    {
+        return mActionMode;
+    }
+
+
+
+    public void requestTrustZoneStatus()
+    {
+        AppUtils.startForegroundService(this, new Intent(this, CommunicationService.class)
+                .setAction(CommunicationService.ACTION_REQUEST_TRUSTZONE_STATUS));
+    }
+
+
+    private class ActivityReceiver extends BroadcastReceiver
+    {
+        @Override
+        public void onReceive(Context context, Intent intent)
+        {
+
+        }
+    }
+
+    private boolean checkPermission() {
+        int result = ContextCompat.checkSelfPermission(getApplicationContext(), WRITE_EXTERNAL_STORAGE);
+        int result2 = ContextCompat.checkSelfPermission(getApplicationContext(), READ_PHONE_STATE);
+        return result == PackageManager.PERMISSION_GRANTED && result2 == PackageManager.PERMISSION_GRANTED;
+    }
+
+    private void requestPermission() {
+
+        ActivityCompat.requestPermissions(this, new String[]{WRITE_EXTERNAL_STORAGE, READ_PHONE_STATE}, PERMISSION_REQUEST_CODE);
+
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case PERMISSION_REQUEST_CODE:
+                if (grantResults.length > 0) {
+
+                    boolean locationAccepted = grantResults[0] == PackageManager.PERMISSION_GRANTED;
+                    boolean contactAccepted = grantResults[1] == PackageManager.PERMISSION_GRANTED;
+                    if (locationAccepted && contactAccepted)
+                        Toast.makeText(this, "Permission Granted, Now you can access this app.", Toast.LENGTH_LONG).show();
+
+                    else {
+                        Toast.makeText(this, "Permission Denied, You cannot use this app.", Toast.LENGTH_LONG).show();
+
+                        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                            if (shouldShowRequestPermissionRationale(WRITE_EXTERNAL_STORAGE)) {
+                                showMessageOKCancel("You need to allow access to both the permissions",
+                                        new DialogInterface.OnClickListener() {
+                                            @Override
+                                            public void onClick(DialogInterface dialog, int which) {
+                                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                                                    requestPermissions(new String[]{WRITE_EXTERNAL_STORAGE, READ_PHONE_STATE},
+                                                            PERMISSION_REQUEST_CODE);
+                                                }
+                                            }
+                                        });
+                                return;
+                            }
+                        }
+
                     }
                 }
 
-                if (fileUris.size() == 0) {
-                    Toast.makeText(this, R.string.text_listEmpty, Toast.LENGTH_SHORT).show();
-                    finish();
-                } else {
-                    mProgressBar = findViewById(R.id.progressBar);
-                    mProgressTextLeft = findViewById(R.id.text1);
-                    mProgressTextRight = findViewById(R.id.text2);
-                    mTextMain = findViewById(R.id.textMain);
-                    mCancelButton = findViewById(R.id.cancelButton);
 
-                    mCancelButton.setOnClickListener(new View.OnClickListener()
-                    {
-                        @Override
-                        public void onClick(View v)
-                        {
-                            if (mTask != null)
-                                mTask.getInterrupter().interrupt(true);
-                        }
-                    });
-
-                    mFileUris = fileUris;
-                    mFileNames = fileNames;
-
-                    checkForTasks();
-                }
-            }
-        } else {
-            Toast.makeText(this, R.string.mesg_formatNotSupported, Toast.LENGTH_SHORT).show();
-            finish();
+                break;
         }
     }
 
-    @Override
-    public void onAttachedToTask(WorkerService.RunningTask task)
-    {
-
+    private void showMessageOKCancel(String message, DialogInterface.OnClickListener okListener) {
+        new AlertDialog.Builder(this)
+                .setMessage(message)
+                .setPositiveButton("OK", okListener)
+                .setNegativeButton("Cancel", null)
+                .create()
+                .show();
     }
 
-    @Override
-    protected void onPreviousRunningTask(@Nullable WorkerService.RunningTask task)
-    {
-        super.onPreviousRunningTask(task);
-
-        if (task instanceof OrganizeShareRunningTask) {
-            mTask = ((OrganizeShareRunningTask) task);
-            mTask.setAnchorListener(this);
-        } else {
-            mTask = new OrganizeShareRunningTask(mFileUris, mFileNames);
-
-            mTask.setTitle(getString(R.string.mesg_organizingFiles))
-                    .setAnchorListener(this)
-                    .setContentIntent(this, getIntent())
-                    .run(this);
-
-            attachRunningTask(mTask);
-        }
-    }
-
-    public Snackbar createSnackbar(int resId, Object... objects)
-    {
-        return Snackbar.make(getWindow().getDecorView(), getString(resId, objects), Snackbar.LENGTH_LONG);
-    }
-
-    public ProgressBar getProgressBar()
-    {
-        return mProgressBar;
-    }
-
-    @Override
-    public Bundle passPreLoadingArguments()
-    {
-        return mPreLoadingBundle;
-    }
-
-    public void updateProgress(final int total, final int current)
-    {
-        if (isFinishing())
-            return;
-
-        runOnUiThread(new Runnable()
-        {
-            @Override
-            public void run()
-            {
-                mProgressTextLeft.setText(String.valueOf(current));
-                mProgressTextRight.setText(String.valueOf(total));
-            }
-        });
-
-        mProgressBar.setProgress(current);
-        mProgressBar.setMax(total);
-    }
-
-    public void updateText(WorkerService.RunningTask runningTask, final String text)
-    {
-        if (isFinishing())
-            return;
-
-        runningTask.publishStatusText(text);
-
-        runOnUiThread(new Runnable()
-        {
-            @Override
-            public void run()
-            {
-                mTextMain.setText(text);
-            }
-        });
-    }
-
-    public static class SelectableStream implements Selectable
-    {
-        private String mDirectory;
-        private String mFriendlyName;
-        private DocumentFile mFile;
-        private boolean mSelected = true;
-
-        public SelectableStream(DocumentFile documentFile, String directory)
-        {
-            mFile = documentFile;
-            mDirectory = directory;
-            mFriendlyName = mFile.getName();
-        }
-
-        public SelectableStream(Context context, Uri uri, String directory) throws FileNotFoundException
-        {
-            this(FileUtils.fromUri(context, uri), directory);
-        }
-
-        public String getDirectory()
-        {
-            return mDirectory;
-        }
-
-        public DocumentFile getDocumentFile()
-        {
-            return mFile;
-        }
-
-        @Override
-        public String getSelectableTitle()
-        {
-            return mFriendlyName;
-        }
-
-        @Override
-        public boolean isSelectableSelected()
-        {
-            return mSelected;
-        }
-
-        public void setFriendlyName(String friendlyName)
-        {
-            mFriendlyName = friendlyName;
-        }
-
-        @Override
-        public boolean setSelectableSelected(boolean selected)
-        {
-            mSelected = selected;
-            return true;
-        }
-    }
 }
-

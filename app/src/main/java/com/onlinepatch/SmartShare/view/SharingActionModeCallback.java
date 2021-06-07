@@ -10,7 +10,7 @@ import android.widget.Toast;
 import com.onlinepatch.SmartShare.fragment.EditableListFragment;
 import com.onlinepatch.SmartShare.adapter.ShareableListFragment;
 import com.onlinepatch.SmartShare.R;
-import com.onlinepatch.SmartShare.activity.ShareActivity;
+import com.onlinepatch.SmartShare.activity.Share1Activity;
 import com.onlinepatch.SmartShare.model.Shareable;
 import com.onlinepatch.SmartShare.widget.EditableListAdapterImpl;
 import com.genonbeta.android.framework.widget.PowerfulActionMode;
@@ -53,7 +53,7 @@ public class SharingActionModeCallback<T extends Shareable> extends EditableList
                     .addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
                     .setAction((item.getItemId() == R.id.action_mode_share_all_apps)
                             ? (selectedItemList.size() > 1 ? Intent.ACTION_SEND_MULTIPLE : Intent.ACTION_SEND)
-                            : (selectedItemList.size() > 1 ? ShareActivity.ACTION_SEND_MULTIPLE : ShareActivity.ACTION_SEND));
+                            : (selectedItemList.size() > 1 ? Share1Activity.ACTION_SEND_MULTIPLE : Share1Activity.ACTION_SEND));
 
             if (selectedItemList.size() > 1) {
                 ShareableListFragment.MIMEGrouper mimeGrouper = new ShareableListFragment.MIMEGrouper();
@@ -70,13 +70,13 @@ public class SharingActionModeCallback<T extends Shareable> extends EditableList
 
                 shareIntent.setType(mimeGrouper.toString())
                         .putParcelableArrayListExtra(Intent.EXTRA_STREAM, uriList)
-                        .putCharSequenceArrayListExtra(ShareActivity.EXTRA_FILENAME_LIST, nameList);
+                        .putCharSequenceArrayListExtra(Share1Activity.EXTRA_FILENAME_LIST, nameList);
             } else if (selectedItemList.size() == 1) {
                 T sharedItem = selectedItemList.get(0);
 
                 shareIntent.setType(sharedItem.mimeType)
                         .putExtra(Intent.EXTRA_STREAM, sharedItem.uri)
-                        .putExtra(ShareActivity.EXTRA_FILENAME_LIST, sharedItem.fileName);
+                        .putExtra(Share1Activity.EXTRA_FILENAME_LIST, sharedItem.fileName);
             }
 
             try {

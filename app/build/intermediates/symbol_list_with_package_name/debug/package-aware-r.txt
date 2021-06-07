@@ -662,6 +662,23 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
+attr lottieAnimationViewStyle
+attr lottie_autoPlay
+attr lottie_cacheComposition
+attr lottie_colorFilter
+attr lottie_enableMergePathsForKitKatAndAbove
+attr lottie_fallbackRes
+attr lottie_fileName
+attr lottie_imageAssetsFolder
+attr lottie_loop
+attr lottie_progress
+attr lottie_rawRes
+attr lottie_renderMode
+attr lottie_repeatCount
+attr lottie_repeatMode
+attr lottie_scale
+attr lottie_speed
+attr lottie_url
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -1259,8 +1276,10 @@ color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
 color green
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_logoback
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1907,6 +1926,7 @@ drawable abc_vector_test
 drawable androidbutton
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_chat
 drawable background_dialog
 drawable background_dialog_dark
 drawable background_edge_action
@@ -1917,10 +1937,12 @@ drawable background_gradient_bottom_dark
 drawable background_gradient_dark
 drawable background_gradient_top
 drawable background_gradient_top_dark
+drawable background_home
 drawable background_popup_menu
 drawable background_popup_menu_dark
 drawable background_snackbar
 drawable background_snackbar_dark
+drawable bluewirepage
 drawable bluewiresplashscreen
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1930,6 +1952,8 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable chatback
+drawable chatback1
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1957,11 +1981,14 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable fastscroll_default_bubble
 drawable fastscroll_default_bubble_dark
+drawable firstscreen
 drawable genfw_close_white_24dp
 drawable genfw_fastscroll_default_bubble
 drawable genfw_fastscroll_default_handle
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable homeback
+drawable homeback1
 drawable ic_about
 drawable ic_account_box_white_24dp
 drawable ic_add_white_24dp
@@ -2064,6 +2091,7 @@ drawable ic_web_white_24dp
 drawable ic_wifi_tethering_white_24dp
 drawable ic_wifi_white_24dp
 drawable ic_zip_box_white_24dp
+drawable iz
 drawable layer_guide_image_rounded
 drawable layer_guide_image_rounded_dark
 drawable layer_tick_image_rounded
@@ -2097,7 +2125,9 @@ drawable mtrl_ic_error
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable nav
 drawable navigation_empty_icon
+drawable navimage
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2155,6 +2185,7 @@ id SYM
 id TOP_END
 id TOP_START
 id about_me
+id about_me1
 id abstract_layout_fast_scroll_recyclerview_bottom_divider
 id abstract_layout_fast_scroll_recyclerview_container
 id abstract_layout_fast_scroll_recyclerview_fastscroll_view
@@ -2286,6 +2317,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id automatic
 id barcodeScannerFragment
 id barrier
 id baseline
@@ -2293,6 +2325,7 @@ id beginOnFirstDraw
 id beginning
 id bidirectional
 id blocking
+id bluetv
 id bottom
 id bounce
 id browser_actions_header_text
@@ -2428,6 +2461,7 @@ id graph_wrap
 id group1
 id group_divider
 id groups
+id hardware
 id header_default_device_name_text
 id header_default_device_version_text
 id hideable
@@ -2447,6 +2481,7 @@ id image
 id image1
 id imageContainer
 id imageStatus
+id img
 id incoming
 id info
 id invisible
@@ -2501,6 +2536,8 @@ id listView
 id list_item
 id list_pathresolver_image
 id list_pathresolver_text
+id lottie
+id lottie_layer_name
 id mainContainer
 id masked
 id md_buttonDefaultNegative
@@ -2627,6 +2664,8 @@ id receive
 id rectangles
 id recycler_view
 id removalSign
+id restart
+id reverse
 id reverseSawtooth
 id right
 id right_icon
@@ -2677,6 +2716,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id software
 id spacer
 id spinner
 id splash
@@ -3069,6 +3109,7 @@ menu drawer_menu
 menu popup_fragment_transfer_assignee
 mipmap ic_launcher
 mipmap ic_launcher_foreground
+mipmap ic_launcher_logofore
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 plurals ques_deleteFile
@@ -3080,6 +3121,7 @@ plurals text_minutesAgo
 plurals text_removeQueueSummary
 plurals text_secondsAgo
 raw consumer_onesignal_keep
+raw splash
 raw zxing_beep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -4447,6 +4489,7 @@ styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width 
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable ListPreference android_entries android_entryValues entries entryValues useSimpleSummaryProvider
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_scale lottie_speed lottie_url
 styleable MDRootLayout md_reduce_padding_no_title_no_buttons
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle

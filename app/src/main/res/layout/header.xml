@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@style/ThemeOverlay.AppCompat.Dark"
     android:layout_width="match_parent"
     android:layout_height="172dp"
-    android:background="#0E0E0E"
+    android:background="@drawable/nav"
     android:padding="25dp">
+
+
+    <TextView
+        android:id="@+id/bluetv"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Bluewire"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
 
     <TextView
         style="@style/TextAppearance.AppCompat.Body1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="78dp"
-        android:text="Bluewire"
+        android:layout_below="@+id/bluetv"
+        android:layout_marginLeft="0dp"
+        android:text="Write to us : bluewire2021s.c@gmail.com "
         android:textColor="#FFFFFF"
-        android:textSize="40sp" />
+        android:textSize="14sp" />
 
-</LinearLayout>
+</RelativeLayout>

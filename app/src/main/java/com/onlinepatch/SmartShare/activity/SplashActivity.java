@@ -3,30 +3,37 @@ package com.onlinepatch.SmartShare.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.widget.ImageView;
 
-import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
+import com.airbnb.lottie.LottieAnimationView;
 import com.onlinepatch.SmartShare.R;
 
-public class SplashActivity extends Activity
-{
-
+public class SplashActivity extends AppCompatActivity {
+    LottieAnimationView lottieAnimationView;
+    ImageView splashImg;
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
-       // setSkipPermissionRequest(true);
-      //  setWelcomePageDisallowed(true);
+        setContentView(R.layout.activity_blue_main);
 
-        new Handler().postDelayed(this::gotoMainActivity, 3000);
 
+        splashImg=findViewById(R.id.img);
+        splashImg.animate().setDuration(1000).setStartDelay(4000);
     }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
+                startActivity(intent);
+                finish();
 
-    private void gotoMainActivity(){
-        startActivity(new Intent(this, BlueMainActivity.class));
-        finish();
+            }
+        },4000);
     }
-
-
 }

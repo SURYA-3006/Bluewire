@@ -148,6 +148,7 @@ androidx/viewpager/widget/ViewPager$DecorView.class
 androidx/viewpager2/widget/ViewPager2$OffscreenPageLimit.class
 androidx/viewpager2/widget/ViewPager2$Orientation.class
 androidx/viewpager2/widget/ViewPager2$ScrollState.class
+com/airbnb/lottie/LottieDrawable$RepeatMode.class
 com/bumptech/glide/annotation/Excludes.class
 com/bumptech/glide/annotation/GlideExtension.class
 com/bumptech/glide/annotation/GlideModule.class
@@ -562,6 +563,7 @@ okio/ByteString.class
 okio/ForwardingSink.class
 okio/HashingSink.class
 okio/Okio$4.class
+okio/Pipe.class
 okio/RealBufferedSource.class
 okio/Segment.class
 okio/SegmentPool.class

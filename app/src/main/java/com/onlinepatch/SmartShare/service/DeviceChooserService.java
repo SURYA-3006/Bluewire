@@ -12,7 +12,7 @@ import android.service.chooser.ChooserTargetService;
 
 import androidx.annotation.RequiresApi;
 
-import com.onlinepatch.SmartShare.activity.ShareActivity;
+import com.onlinepatch.SmartShare.activity.Share1Activity;
 import com.onlinepatch.SmartShare.db.AccessDatabase;
 import com.onlinepatch.SmartShare.view.TextDrawable;
 import com.onlinepatch.SmartShare.util.AppUtils;
@@ -40,7 +40,7 @@ public class DeviceChooserService extends ChooserTargetService
 
             Bundle bundle = new Bundle();
 
-            bundle.putString(ShareActivity.EXTRA_DEVICE_ID, device.deviceId);
+            bundle.putString(Share1Activity.EXTRA_DEVICE_ID, device.deviceId);
 
             TextDrawable textImage = iconBuilder.buildRound(device.nickname);
             Bitmap bitmap = Bitmap.createBitmap(100, 100, Bitmap.Config.ARGB_8888);

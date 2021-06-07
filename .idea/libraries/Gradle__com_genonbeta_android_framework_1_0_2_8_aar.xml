@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.genonbeta.android:framework:1.0.2.8@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c5de3f72b4ab29f95571cadcd35d530/jetified-framework-1.0.2.8/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afa38b26af506f7671356fb7fc45242e/jetified-framework-1.0.2.8/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c5de3f72b4ab29f95571cadcd35d530/jetified-framework-1.0.2.8/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c5de3f72b4ab29f95571cadcd35d530/jetified-framework-1.0.2.8/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4c5de3f72b4ab29f95571cadcd35d530/jetified-framework-1.0.2.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afa38b26af506f7671356fb7fc45242e/jetified-framework-1.0.2.8/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afa38b26af506f7671356fb7fc45242e/jetified-framework-1.0.2.8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/afa38b26af506f7671356fb7fc45242e/jetified-framework-1.0.2.8/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.genonbeta.android/framework/1.0.2.8/7f935f4c199d6cf86cac84123aad222b8bc646c9/framework-1.0.2.8-javadoc.jar!/" />

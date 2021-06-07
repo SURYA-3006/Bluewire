@@ -114,7 +114,7 @@ public class ServerActivity extends AppCompatActivity {
     public void onClick(View view){
         if (view.getId() == R.id.start_server) {
             msgList.removeAllViews();
-            showMessage("Server Started.", Color.GREEN, false);
+            showMessage("Server Started.",greenColor, false);
 
             //this initiates the serverthread defined later and starts the thread
             this.serverThread=new Thread(new ServerThread());

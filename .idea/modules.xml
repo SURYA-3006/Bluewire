@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SmartShare.iml" filepath="$PROJECT_DIR$/.idea/modules/SmartShare.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SmartShare.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SmartShare.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Bluewire.iml" filepath="$PROJECT_DIR$/.idea/modules/Bluewire.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Bluewire.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Bluewire.app.iml" />
     </modules>
   </component>
 </project>

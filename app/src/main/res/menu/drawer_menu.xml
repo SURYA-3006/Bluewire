@@ -27,7 +27,7 @@
                 android:title="Share App" />
 
             <item
-                android:id="@+id/about_me"
+                android:id="@+id/about_me1"
                 android:icon="@drawable/ic_about"
                 android:title="About Us" />
             <item

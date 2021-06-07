@@ -86,19 +86,19 @@
         android:testOnly="true"
         android:theme="@style/Theme.TBShare" >
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.ChatNavigationActivity"
+            android:name="com.onlinepatch.SmartShare.activity.ChatActivity"
             android:label="Chat"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         </activity>
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.HomeNavigationActivity"
+            android:name="com.onlinepatch.SmartShare.activity.HomeActivity"
             android:label="Home"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         </activity>
         <activity android:name="com.onlinepatch.SmartShare.activity.ClientActivity" />
         <activity android:name="com.onlinepatch.SmartShare.activity.ServerActivity" />
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.BlueMainActivity"
+            android:name="com.onlinepatch.SmartShare.activity.SplashActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -115,12 +115,12 @@
             android:value="@string/admob_app_id" />
 
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.MainActivity"
+            android:name="com.onlinepatch.SmartShare.activity.ShareActivity"
             android:label="Share Files"
             android:launchMode="singleTask"
             android:theme="@style/Theme.TBShare.NoActionBar" />
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.ShareActivity"
+            android:name="com.onlinepatch.SmartShare.activity.Share1Activity"
             android:label="@string/app_name"
             android:theme="@style/Theme.TBShare.NoActionBar.StaticStatusBar" >
             <intent-filter>
@@ -197,7 +197,7 @@
             android:label="@string/text_scanQrCode"
             android:theme="@style/Theme.TBShare.BarcodeScannerActivity" />
         <activity
-            android:name="com.onlinepatch.SmartShare.activity.SplashActivity"
+            android:name="com.onlinepatch.SmartShare.activity.TempActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.TBShare.NoActionBar" />
         <activity

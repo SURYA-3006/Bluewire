@@ -25,11 +25,14 @@
 
 
     <ScrollView
-        android:layout_width="375dp"
-        android:layout_height="449dp"
+        android:background="@drawable/background_chat"
+        android:layout_width="match_parent"
+        android:layout_height="522dp"
         android:layout_above="@+id/send_data"
         android:layout_below="@+id/tvIP"
-        android:layout_marginBottom="64dp">
+        android:layout_marginTop="44dp"
+        android:layout_marginBottom="52dp">
+
 
         <LinearLayout
             android:id="@+id/msgList"

@@ -5,7 +5,7 @@
 
     <TextView
         android:id="@+id/version_code"
-        android:gravity="center"
+        android:gravity="right"
         android:textColor="@android:color/white"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
 
     <TextView
         android:id="@+id/version_name"
-        android:gravity="center"
+        android:gravity="fill_horizontal"
         android:textColor="@android:color/white"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:layout_width="match_parent"
